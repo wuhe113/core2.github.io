@@ -4,6 +4,11 @@ body{
     background-color: blue;
 }
 
+@font-face {
+    font-family: "w95fa";
+    src: url(/week1_homework/materials/w95fa.woff) format("woff");
+}
+
 .installing{
     position: absolute;
     top: 50%;
