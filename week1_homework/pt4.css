@@ -1,0 +1,66 @@
+body{
+    position: relative;
+    cursor: url(/week1_homework/materials/cursor.png), auto;
+    background-image: url(/week1_homework/materials/star\ 2.gif);
+}
+
+.mobile{
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    transform: translate(-17%, -30%);
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.mobile:hover {
+    animation-play-state: paused;
+  }
+
+
+.button{
+    position: fixed;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    bottom: 5px;
+    background-color: rgb(212, 212, 212);
+    font-family: w95fa;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+  }
+
+#home{
+    left: 10px;
+    bottom: 10px;
+    width: 65px;
+    height: 30px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 2px solid black;
+    border-right: 4px solid black;
+    box-shadow: 1px 1px 0.5px white inset, -2px -2px 1px rgb(123, 123, 123) inset;
+  }
+
+a:link{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+a:active{
+    color:rgb(133, 133, 133);
+    text-decoration: none;
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "w95fa";
+    src: url(/week1_homework/materials/w95fa.woff) format("woff");
+}
+
+body{
+    background-color: aqua;
+    position: relative;
+    cursor: url(/week1_homework/materials/cursor.png), auto;
+}
+.textbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    font-family: w95fa;
+    font-size: 20px;
+    overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    animation: typing 5.5s steps(55, end),
+    blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from{ width: 0}
+    to { width: 90%;}
+}
+
+@keyframes blink-caret{
+    from, to { border-color: transparent;}
+    50% { border-color: black }
+}
+
+.button{
+    position: fixed;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    bottom: 5px;
+    background-color: rgb(212, 212, 212);
+    font-family: w95fa;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+  }
+
+  #home{
+    left: 10px;
+    bottom: 10px;
+    width: 65px;
+    height: 30px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 2px solid black;
+    border-right: 4px solid black;
+    box-shadow: 1px 1px 0.5px white inset, -2px -2px 1px rgb(123, 123, 123) inset;
+  }
+
+  a:link{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+a:active{
+    color:rgb(133, 133, 133);
+    text-decoration: none;
+}

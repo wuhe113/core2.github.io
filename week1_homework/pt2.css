@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "w95fa";
+    src: url(/week1_homework/materials/w95fa.woff) format("woff");
+}
+
+
+body{
+    background-image: url(/week1_homework/materials/pink\ stars.gif);
+    position: relative;
+    cursor: url(/week1_homework/materials/cursor.png), auto;
+}
+
+.iconbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    box-shadow: 0px 0px 10px rgb(130, 130, 130);
+}
+
+.icon_flash{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.rb1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: -2;
+    box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+
+
+.rb2{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    box-shadow: 0px 0px 10px rgb(167, 167, 167);
+
+}
+
+.rb3{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    z-index: -2;
+    box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+
+.text{
+    position:absolute;
+    top: 30%;
+    left: 70%;
+    box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+
+p{
+    position: absolute;
+    font-family: w95fa;
+    top: 38%;
+    left: 73%;
+    font-size: 13px;
+    line-height: 1em;
+
+}
+
+.button{
+    position: fixed;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    bottom: 5px;
+    background-color: rgb(212, 212, 212);
+    font-family: w95fa;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+  }
+
+  #home{
+    left: 10px;
+    bottom: 10px;
+    width: 65px;
+    height: 30px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 2px solid black;
+    border-right: 4px solid black;
+    box-shadow: 1px 1px 0.5px white inset, -2px -2px 1px rgb(123, 123, 123) inset;
+  }
+
+  a:link{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+a:active{
+    color:rgb(133, 133, 133);
+    text-decoration: none;
+}
