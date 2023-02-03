@@ -107,14 +107,13 @@ div{
     text-align: center;
 }
 
-
 .overlay3{
     position: absolute;
-    top: 0;
+    top: -51.5px;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -138,3 +137,35 @@ div{
     text-align: center;
 }
 
+.p4{
+    overflow:hidden;
+}
+
+.overlay4 {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+.p4:hover .overlay4 {
+  opacity: 1;
+}
+
+#text4{
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
