@@ -1,0 +1,31 @@
+
+div{    
+    font-family: 'Satoshi', sans-serif;
+    font-size: 50px;
+
+}
+.title{
+    text-align: center;
+}
+
+.contents{
+    text-align: center;
+    line-height: 5;
+}
+
+
+.content1{
+    line-height: 1.5;
+}
+
+#chapter1{
+    text-align: left;
+}
+
+#deb1{
+    text-indent: 50px;
+}
+
+#page1{
+    margin-left: 900px;
+}
