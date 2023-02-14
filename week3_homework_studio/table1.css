@@ -5,27 +5,116 @@ div{
 
 }
 .title{
-    text-align: center;
-}
-
-.contents{
-    text-align: center;
-    line-height: 5;
-}
-
-
-.content1{
-    line-height: 1.5;
-}
-
-#chapter1{
     text-align: left;
 }
 
-#deb1{
-    text-indent: 50px;
+.contents{
+    text-align: right;
+    /* line-height: 5; */
+    margin-top: 80px;
 }
 
-#page1{
-    margin-left: 900px;
+
+/* .content1,.content2{
+    text-align: left;
+} */
+
+.chapter{
+    margin-top: 150px;
 }
+
+.deb{
+    text-indent: 50px;
+    margin-top: -20px;
+}
+
+/* #deb2{
+    text-indent: 50px;
+    margin-top: -20px;
+} */
+
+#page1{
+    margin-left: 910px;
+}
+
+#page2{
+    margin-left: 480px;
+}
+
+#page3{
+    margin-left: 470px;
+}
+
+#page4{
+    margin-left: 680px;
+}
+
+#page5{
+    margin-left: 685px;
+}
+
+#page6{
+    margin-left: 685px;
+}
+
+#page7{
+    margin-left: 723px;
+}
+
+#page8{
+    margin-left: 553px;
+}
+
+#page9{
+    margin-left: 660px;
+}
+
+#page10{
+    margin-left: 733px;
+}
+
+#page11{
+    margin-left: 628px;
+}
+
+#page12{
+    margin-left: 555px;
+}
+
+#page13{
+    margin-left: 702px;
+}
+
+#page14{
+    margin-left: 789px;
+}
+
+#page15{
+    margin-left: 760px;
+}
+
+#page16{
+    margin-left: 733px;
+}
+
+.notes{
+    text-indent: 300px;
+    margin-top: 150px;
+}
+
+#notespage{
+    margin-left: 850px;
+}
+
+.biblio,.index{
+    text-indent: 300px;
+}
+
+#bibliopage{
+    margin-left: 692px;
+}
+
+#indexpage{
+    margin-left: 846px;
+}
+
