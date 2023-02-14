@@ -1,0 +1,421 @@
+body{
+    background-color: rgb(255, 96, 96);
+    padding: 0;
+    margin: 0;
+}
+
+.marquee-container {
+    height: 95px;
+    overflow: hidden;
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    color:  rgb(255, 96, 96);
+    background-color: black;
+}
+
+/* .marquee1{
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+} */
+
+/* .marquee-container2{
+    background-color: black;
+    height: 95px;
+}
+
+.marquee2{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee2 30s linear infinite;
+} */
+
+/* .marquee2 {
+    animation-delay: 15s;
+  } */
+
+
+
+#marquee2{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color:rgb(255, 96, 96);
+}
+
+
+/* @keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
+
+@keyframes marquee2 {
+0% {
+    left: 100%;
+}
+100% {
+    left: -100%
+}
+} */
+
+
+.chapter1{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+    border: 4px solid black;
+    width: 300px;
+    height: 80px;
+    border-radius: 80px;
+
+}
+
+#cha1{
+    font-size: 40px;
+    position: absolute;
+    left:55px;
+    top:140px;
+}
+
+#page1{
+    font-size: 40px;
+    position: absolute;
+    left:280px;
+    top:140px;
+}
+
+
+#deb1{
+    font-size: 15px;
+}
+
+.chapter2{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 60px;
+    line-height: 40px;
+    text-align: center;
+    border: 4px solid black;
+    width: 300px;
+    height: 80px;
+    border-radius: 80px;
+
+}
+
+#cha2{
+    font-size: 40px;
+    position: absolute;
+    left:90px;
+    top:290px;
+}
+
+#page2{
+    font-size: 40px;
+    position: absolute;
+    left:290px;
+    top:290px;
+}
+
+
+#deb2{
+    font-size: 14px;
+}
+
+.chapter3{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+    border: 4px solid black;
+    width: 300px;
+    height: 80px;
+    border-radius: 80px;
+
+}
+
+#cha3{
+    font-size: 40px;
+    position: absolute;
+    left:60px;
+    top:420px;
+}
+
+#page3{
+    font-size: 40px;
+    position: absolute;
+    left:260px;
+    top:420px;
+}
+
+
+#deb3{
+    font-size: 14px;
+}
+
+.chapter4{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 60px;
+    line-height: 45px;
+    text-align: center;
+    border: 4px solid black;
+    width: 310px;
+    height: 90px;
+    border-radius: 80px;
+
+}
+
+#cha4{
+    font-size: 40px;
+    position: absolute;
+    left:80px;
+    top:540px;
+}
+
+#page4{
+    font-size: 40px;
+    position: absolute;
+    left:295px;
+    top:540px;
+}
+
+
+#deb4{
+    font-size: 14px;
+}
+
+.chapter5{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -450px;
+    margin-left: 400px;
+    line-height: 45px;
+    text-align: center;
+    border: 4px solid black;
+    width: 300px;
+    height: 90px;
+    border-radius: 80px;
+
+}
+
+#cha5{
+    font-size: 40px;
+    position: absolute;
+    left:430px;
+    top:190px;
+}
+
+#page5{
+    font-size: 40px;
+    position: absolute;
+    left:620px;
+    top:190px;
+}
+
+
+#deb5{
+    font-size: 14px;
+}
+
+.chapter6{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 430px;
+    line-height: 45px;
+    text-align: center;
+    border: 4px solid black;
+    width: 310px;
+    height: 90px;
+    border-radius: 80px;
+
+}
+
+#cha6{
+    font-size: 40px;
+    position: absolute;
+    left:460px;
+    top:330px;
+}
+
+#page6{
+    font-size: 40px;
+    position: absolute;
+    left:670px;
+    top:330px;
+}
+
+
+#deb6{
+    font-size: 14px;
+}
+
+.chapter7{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 400px;
+    line-height: 45px;
+    text-align: center;
+    border: 4px solid black;
+    width: 300px;
+    height: 90px;
+    border-radius: 80px;
+
+}
+
+#cha7{
+    font-size: 40px;
+    position: absolute;
+    left:430px;
+    top:470px;
+}
+
+#page7{
+    font-size: 40px;
+    position: absolute;
+    left:620px;
+    top:470px;
+}
+
+
+#deb7{
+    font-size: 14px;
+}
+
+.chapter8{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 430px;
+    line-height: 45px;
+    text-align: center;
+    border: 4px solid black;
+    width: 320px;
+    height: 90px;
+    border-radius: 80px;
+
+}
+
+#cha8{
+    font-size: 40px;
+    position: absolute;
+    left:470px;
+    top:610px;
+}
+
+#page8{
+    font-size: 40px;
+    position: absolute;
+    left:670px;
+    top:610px;
+}
+
+
+#deb8{
+    font-size: 14px;
+}
+
+.chapter9{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: -410px;
+    margin-left: 790px;
+    line-height: 45px;
+    text-align: center;
+    border: 4px solid black;
+    width: 320px;
+    height: 90px;
+    border-radius: 80px;
+
+}
+
+#cha9{
+    font-size: 40px;
+    position: absolute;
+    left:830px;
+    top:300px;
+}
+
+#page9{
+    font-size: 40px;
+    position: absolute;
+    left:1020px;
+    top:300px;
+}
+
+
+#deb9{
+    font-size: 14px;
+}
+
+.chapter1:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter2:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter3:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter4:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter5:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter6:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+
+.chapter7:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter8:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
+
+.chapter9:hover{
+    background-color: black;
+    color: rgb(255, 96, 96);
+}
