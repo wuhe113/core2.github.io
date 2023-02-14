@@ -1,0 +1,71 @@
+
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: blue;
+    color:white;
+  }
+
+  .left:hover{
+    background-color: white;
+    color: blue;
+  }
+
+  #p1{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 150px;
+    line-height: 130px;
+    text-align: center;
+  }
+  
+  .right {
+    scroll-behavior: auto;
+    right: 0;
+    background-color: white;
+    color:blue;
+  }
+
+  .right:hover{
+    background-color: blue;
+    color: white;
+  }
+
+  h1{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 100px;
+    position: relative;
+    left: -130px;
+    top: 4000px;
+  }
+
+  .name{
+    font-family: 'Satoshi', sans-serif;
+    font-size:40px;
+  }
+
+  .deb{
+    font-family: 'Satoshi', sans-serif;
+    font-style: italic;
+    font-size:20px;
+    position: relative;
+    top: -20px;
+    left: 200px
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
