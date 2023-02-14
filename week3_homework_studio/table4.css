@@ -1,0 +1,184 @@
+body{
+    cursor: url(/week3_homework_studio/png/blue.png), auto;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#blue-bar{
+    background-color: blue;
+    width: 50%;
+    height: 100vh;
+}
+
+#title{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+hr{
+    border: 1px solid blue;
+}
+
+#star1{
+    margin-left: 200px;
+    margin-top: -60px;
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+#star2{
+    margin-top:-100px;
+    margin-left: -300px;
+    animation: blink-animation2 3s steps(8, start) infinite;
+}
+
+#star3{
+    margin-top:-50px;
+    margin-left: -200px;
+    animation: blink-animation3 1s steps(5, start) infinite;
+}
+
+#star4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    animation: blink-animation4 2s steps(10, start) infinite;
+}
+
+#star5{
+    position: relative;
+    left: 300px;
+    top: -80px;
+    animation: blink-animation5 0.5s steps(10, start) infinite;
+}
+
+#star6{
+    position: relative;
+    left: -550px;
+    top: -30px;
+    animation: blink-animation6 1s steps(10, start) infinite;
+    
+}
+
+#star7{
+    margin-top: -80px;
+    transform: rotate(270deg);
+    animation: blink-animation7 3s steps(10, start) infinite;
+}
+
+#star8{
+    margin-top: -50px;
+    margin-left: 30px;
+    animation: blink-animation8 1s steps(5, start) infinite;
+}
+
+#star9{
+    position: relative;
+    top:-130px;
+    left:-80px;
+    animation: blink-animation9 1s steps(10, start) infinite;
+}
+
+#star10{
+    margin-top: -90px;
+    animation: blink-animation10 2s steps(10, start) infinite;
+}
+
+#star11{
+    margin-top: -20px;
+    margin-left: 850px;
+    animation: blink-animation11 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation2 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation3 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation4 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation5 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation6 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation7 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation8 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation9 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation10 {
+    to {
+      visibility: hidden;
+    }
+}
+
+@keyframes blink-animation11 {
+    to {
+      visibility: hidden;
+    }
+}
+
+
+/* #thinking{
+    color: blue;
+} */
+
+.content{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+.chapter{
+    font-family: 'Satoshi', sans-serif;
+    color: white;
+}
+
+.page{
+    margin-right: 300px;
+}
+
+.chapter:hover{
+    color: blue;
+    text-shadow: rgb(0, 0, 255) 0px 0px 10px;
+
+}
