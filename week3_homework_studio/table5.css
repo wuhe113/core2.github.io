@@ -1,0 +1,367 @@
+.title{
+    font-family: 'Source Serif 4', serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#c{
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+}
+
+hr{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.category{
+    margin-top: 60px;
+    margin-left: 10px;
+    font-family: 'Source Serif 4', serif;
+    font-size: 15px;
+}
+
+#name{
+    margin-left: 200px;
+}
+
+#deb{
+    margin-left: 350px;
+}
+
+#page{
+    margin-left: 350px;
+}
+
+.content{
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.content:hover{
+    background-color: rgb(210, 210, 210);
+    width: 80%;
+}
+
+#namelist{
+    margin-left: 200px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist{
+    margin-left: 280px;
+    font-size: 18px;
+}
+
+#pagelist{
+    margin-left: 240px;
+}
+
+
+
+#namelist2{
+    margin-left: 160px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist2{
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+#pagelist2{
+    margin-left: 268px;
+}
+
+
+#namelist3{
+    margin-left: 160px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist3{
+    margin-left: 195px;
+    font-size: 18px;
+}
+
+#pagelist3{
+    margin-left: 270px;
+}
+
+#namelist4{
+    margin-left: 180px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist4{
+    margin-left: 235px;
+    font-size: 18px;
+}
+
+#pagelist4{
+    margin-left: 240px;
+}
+
+#namelist5{
+    margin-left: 180px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist5{
+    margin-left: 255px;
+    font-size: 18px;
+}
+
+#pagelist5{
+    margin-left: 260px;
+}
+
+#namelist6{
+    margin-left: 180px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist6{
+    margin-left: 245px;
+    font-size: 18px;
+}
+
+#pagelist6{
+    margin-left: 240px;
+}
+
+#namelist7{
+    margin-left: 185px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist7{
+    margin-left: 295px;
+    font-size: 18px;
+}
+
+#pagelist7{
+    margin-left: 297px;
+}
+
+#namelist8{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist8{
+    margin-left: 225px;
+    font-size: 18px;
+}
+
+#pagelist8{
+    margin-left: 260px;
+}
+
+#namelist9{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist9{
+    margin-left: 265px;
+    font-size: 18px;
+}
+
+#pagelist9{
+    margin-left: 279px;
+}
+#namelist10{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist10{
+    margin-left: 290px;
+    font-size: 18px;
+}
+
+#pagelist10{
+    margin-left: 279px;
+}
+
+#namelist11{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist11{
+    margin-left: 240px;
+    font-size: 18px;
+}
+
+#pagelist11{
+    margin-left: 250px;
+}
+
+#namelist12{
+    margin-left: 160px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist12{
+    margin-left: 250px;
+    font-size: 18px;
+}
+
+#pagelist12{
+    margin-left: 279px;
+}
+
+#namelist13{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist13{
+    margin-left: 290px;
+    font-size: 18px;
+}
+
+#pagelist13{
+    margin-left: 255px;
+}
+
+#namelist14{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist14{
+    margin-left: 290px;
+    font-size: 18px;
+}
+
+#pagelist14{
+    margin-left: 220px;
+}
+
+#namelist15{
+    margin-left: 170px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist15{
+    margin-left: 315px;
+    font-size: 18px;
+}
+
+#pagelist15{
+    margin-left: 273px;
+}
+
+#namelist16{
+    margin-left: 165px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deblist16{
+    margin-left: 330px;
+    font-size: 18px;
+}
+
+#pagelist16{
+    margin-left: 298px;
+}
+
+#namelist17{
+    margin-left: 250px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#pagelist17{
+    margin-left: 818px;
+}
+
+#namelist18{
+    margin-left: 220px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#pagelist18{
+    margin-left: 787px;
+}
+
+#namelist19{
+    margin-left: 248px;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#pagelist19{
+    margin-left: 819px;
+}
+
+#instruction{
+    font-family: 'Source Serif 4', serif;
+    margin-left: 800px;
+}
+
