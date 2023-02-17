@@ -1,6 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik+80s+Fade&display=swap');
+body{
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(21,248,255,1) 51%, rgba(0,157,255,1) 100%);
+}
 
 h1{
-    font-family: 'Rubik 80s Fade', cursive; 
-    font-size: 200px;
+    font-family: 'Monofett', cursive;
+    font-size: 100px;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,59,255,1) 49%, rgba(0,157,255,1) 100%);;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6vw;
+}
+
+h3{
+    font-family: 'Inria Sans', sans-serif;
+    font-style: 400;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+h3::before, h3::after{
+    color: orange;
+    font-size: 40px;
+    content: '☼';
+}
+
+section{
+    background-color: white;
+    width: 60vw;
+    height: 70vh;
+    text-align: center;
+    position: absolute;
+    margin-top: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    font-size: 1.2vw;
+}
+
+ul {
+    margin-top: 30px;
+    font-family: 'Inria Sans', sans-serif;
+    line-height: 30px;
+}
+
+.date{
+}
+
+dt{
+    margin-top: 10px;
+    color: rgb(0, 132, 255);
+}
+
+dd{
+    font-style: light 300;
+    margin-top: -10px;
+    color: rgb(133, 155, 176);
+}
+
+.date:hover{
+    color: orangered;
+}
+
+#authorship{
+    position: relative;
+    bottom:-550px;
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: light 300;
+    opacity: 0.5;
+    font-size: 1.2vw;
 }
