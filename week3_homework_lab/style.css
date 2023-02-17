@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    font-family: 'Monofett', cursive;
+    font-family: 'Monofett', cursive, 'Vast Shadow', cursive;
     font-size: 100px;
     text-align: center;
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,59,255,1) 49%, rgba(0,157,255,1) 100%);;
@@ -68,7 +68,7 @@ dd{
 
 #authorship{
     position: relative;
-    bottom:-550px;
+    bottom:-560px;
     text-align: center;
     font-family: 'Inria Sans', sans-serif;
     font-style: light 300;
