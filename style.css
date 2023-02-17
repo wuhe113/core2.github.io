@@ -12,6 +12,7 @@ p{
     margin-inline:5%;
 }
 
+
 .star{ 
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
@@ -151,6 +152,7 @@ div{
     transition: .5s ease;
     background-color: black;
   }
+
 .p4:hover .overlay4 {
   opacity: 1;
 }
@@ -182,4 +184,9 @@ a:active{
     color:white;
     background-color: rgb(116, 116, 116);
     text-decoration: none;
+}
+
+hr{
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
