@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "basteleur";
+    src: url(/typeface/Basteleur-Moonlight.woff) format("woff");
+}
+
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: url(/project1/png/Book\ mockup.png);
+    background-size: 100% 100%;
+
+}
+
+
+
+.text{
+    font-family: 'Cardelina', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+    column-width: 50vw;
+    height: 100vh;
+    column-gap: 0;
+    box-sizing: border-box;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.text::-webkit-scrollbar{
+    opacity: 0.5;
+}
+
+#p1{
+    font-family: basteleur;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 35vw;
+    font-size: 5vw;
+    line-height: 5.5vw;
+
+}
+
+
+#p2{
+    text-indent: 50px;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.3vw;
+    line-height: 3vw;
+}
+
+/* #p3{
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1vw;
+    line-height: 2vw;
+} */
+
+.container1{
+    background:linear-gradient(180deg, rgba(255,255,255,0) 16%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 78%, rgba(255,255,255,0) 100%);
+    height: 4500px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#hex1{
+    margin-top: 1800px;
+    color: white;
+    font-family: basteleur;
+    font-size: 4vw;
+    transform: rotate(-45deg);
+}
+
+
+#hex2{
+    margin-top: 100px;
+    margin-left: 335px;
+    color: white;
+    font-family: basteleur;
+    font-size: 4vw;
+    transform: rotate(0deg);
+}
+
+#hex3{
+    margin-top: 150px;
+    margin-left: 400px;
+    color: white;
+    font-family: basteleur;
+    font-size: 4vw;
+    transform: rotate(45deg);
+}
+
+/* marquee{
+    color: white;
+    position: relative;
+    top: 1000px;
+    height: 80vh;
+    font-size: 80px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
