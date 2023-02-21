@@ -1,0 +1,3413 @@
+@media only screen and (max-width: 375px) {
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: black;
+}
+
+
+#intro{
+    position: relative;
+    display: inline-block;
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-top: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: show 5s forwards;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.library{
+    visibility:hidden;
+    animation: showafter5s 0s ease-in 5s forwards;   
+}
+
+#hex1{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:10px;
+    left: 10px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.1s * var(--hex))
+}
+
+
+#hex2{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:10px;
+    left: 160px;
+}
+
+#hex3{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:10px;
+    left: 310px;
+}
+#hex4{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:10px;
+    left: 460px;
+}
+
+#hex5{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:10px;
+    left: 610px;
+}
+#hex6{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:10px;
+    left: 760px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex7{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:140px;
+    left:85px;
+}
+#hex8{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:140px;
+    left:235px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex9{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:140px;
+    left:385px;
+}
+
+#hex10{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:140px;
+    left:535px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex11{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:140px;
+    left:685px;
+}
+
+#hex12{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:270px;
+    left:10px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex13{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:270px;
+    left:160px;
+}
+
+#hex14{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:270px;
+    left:310px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex15{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:270px;
+    left:460px;
+}
+
+#hex16{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:270px;
+    left:610px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex17{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:270px;
+    left:760px;
+}
+
+#hex19{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:400px;
+    left:85px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex20{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:400px;
+    left:235px;
+}
+
+#hex21{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:400px;
+    left:385px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex22{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:400px;
+    left:535px;
+}
+
+#hex23{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:400px;
+    left:685px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex24{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:530px;
+    left:10px;
+}
+
+#hex25{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:530px;
+    left:160px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex26{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:530px;
+    left:310px;
+}
+
+#hex27{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:530px;
+    left:460px;
+    animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+    animation-delay: calc(.3s * var(--hex))
+}
+
+#hex28{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:530px;
+    left:610px;
+}
+
+#hex29{
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 300px;
+    color: white;
+    position:absolute;
+    top:530px;
+    left:760px;
+}
+
+
+.content{
+    visibility:hidden;
+    animation: showafter5s 0s ease-in 5s forwards; 
+    color: white;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 30px;
+    line-height: 50px;  
+}
+
+
+#p1{
+    position: absolute;
+    top: 900px;
+    left: 60px;
+    width: 90vw;
+    font-size: 40px;
+}
+
+
+
+#p2{
+    position: absolute;
+    top: 2500px;
+    left: 30px;
+    width: 45vw;
+}
+
+#p3{
+    position: absolute;
+    top: 3500px;
+    right: 10px;
+    width: 45vw;
+}
+
+#hex30{
+    position: absolute;
+    top: 4750px;
+    left: 395px;
+    font-size: 300px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#p4{
+    position: absolute;
+    top: 4950px;
+    left: 70px;
+    width: 90vw;
+    font-size: 40px;
+}
+
+#p5{
+    position: absolute;
+    top: 5150px;
+    left: 70px;
+    width: 90vw;
+    font-size: 40px;
+}
+
+#p6{
+    position: absolute;
+    top: 5550px;
+    left: 55px;
+    width: 45vw;
+}
+
+#p7{
+    position: absolute;
+    top: 5550px;
+    right: 45px;
+    width: 40vw;
+}
+
+#p8{
+    position: absolute;
+    top: 6200px;
+    left: 70px;
+    width: 90vw;
+    font-size: 40px;
+}
+
+#p9{
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:black;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+@keyframes showafter5s {
+    to{
+        visibility: visible;
+    }
+}
+
+@keyframes flip{
+    0%,80% {
+        transform: rotateY(360deg) 
+      }
+}
+
+@keyframes glow {
+    from {
+      filter: blur(2px);
+      text-shadow: 0 0 20px white;
+      opacity: 0.5;
+    }
+    to {
+      filter: blur(1px);
+      text-shadow: 0 0 50px white, 0 0 10px white;
+      opacity: 1;
+    }
+  }
+
+  @keyframes glow2 {
+    from {
+      opacity: 0.5;
+      text-shadow: 0 0 20px white;
+    }
+    to {
+      opacity: 1;
+      text-shadow: 0 0 50px white, 0 0 10px white;
+    }
+  }
+
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 100px;
+    color: white;
+    visibility:hidden;
+    animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+}
+
+#path1{
+    position: absolute;
+    height: 3500px;
+    border: solid 6px white;
+    top: 1200px;
+    right: 480px;
+}
+
+#path2{
+    position: absolute;
+    height: 800px;
+    border: solid 6px white;
+    top: 5400px;
+    right: 480px;
+}
+}
+@media only screen and (min-width: 375px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    
+    #intro{
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: show 5s forwards;
+    }
+    
+    @keyframes show{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    
+    .library{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards;   
+    }
+    
+    #hex1{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 10px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.1s * var(--hex))
+    }
+    
+    
+    #hex2{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 160px;
+    }
+    
+    #hex3{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 310px;
+    }
+    #hex4{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 460px;
+    }
+    
+    #hex5{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 610px;
+    }
+    #hex6{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 760px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex7{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:85px;
+    }
+    #hex8{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:235px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex9{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:385px;
+    }
+    
+    #hex10{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:535px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex11{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:685px;
+    }
+    
+    #hex12{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:10px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex13{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:160px;
+    }
+    
+    #hex14{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:310px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex15{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:460px;
+    }
+    
+    #hex16{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:610px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex17{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:760px;
+    }
+    
+    #hex19{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:85px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex20{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:235px;
+    }
+    
+    #hex21{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:385px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex22{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:535px;
+    }
+    
+    #hex23{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:685px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex24{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:10px;
+    }
+    
+    #hex25{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:160px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex26{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:310px;
+    }
+    
+    #hex27{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:460px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex28{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:610px;
+    }
+    
+    #hex29{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:760px;
+    }
+    
+    
+    .content{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards; 
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 30px;
+        line-height: 50px;  
+    }
+    
+    
+    #p1{
+        position: absolute;
+        top: 900px;
+        left: 60px;
+        width: 90vw;
+        font-size: 40px;
+    }
+    
+    
+    
+    #p2{
+        position: absolute;
+        top: 2500px;
+        left: 30px;
+        width: 45vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 3500px;
+        right: 10px;
+        width: 45vw;
+    }
+    
+    #hex30{
+        position: absolute;
+        top: 4750px;
+        left: 395px;
+        font-size: 300px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 4950px;
+        left: 70px;
+        width: 90vw;
+        font-size: 40px;
+    }
+    
+    #p5{
+        position: absolute;
+        top: 5150px;
+        left: 70px;
+        width: 90vw;
+        font-size: 40px;
+    }
+    
+    #p6{
+        position: absolute;
+        top: 5550px;
+        left: 55px;
+        width: 45vw;
+    }
+    
+    #p7{
+        position: absolute;
+        top: 5550px;
+        right: 45px;
+        width: 40vw;
+    }
+    
+    #p8{
+        position: absolute;
+        top: 6200px;
+        left: 70px;
+        width: 90vw;
+        font-size: 40px;
+    }
+    
+    #p9{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes showafter5s {
+        to{
+            visibility: visible;
+        }
+    }
+    
+    @keyframes flip{
+        0%,80% {
+            transform: rotateY(360deg) 
+          }
+    }
+    
+    @keyframes glow {
+        from {
+          filter: blur(2px);
+          text-shadow: 0 0 20px white;
+          opacity: 0.5;
+        }
+        to {
+          filter: blur(1px);
+          text-shadow: 0 0 50px white, 0 0 10px white;
+          opacity: 1;
+        }
+      }
+    
+      @keyframes glow2 {
+        from {
+          opacity: 0.5;
+          text-shadow: 0 0 20px white;
+        }
+        to {
+          opacity: 1;
+          text-shadow: 0 0 50px white, 0 0 10px white;
+        }
+      }
+    
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 3500px;
+        border: solid 6px white;
+        top: 1200px;
+        right: 480px;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 800px;
+        border: solid 6px white;
+        top: 5400px;
+        right: 480px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    
+    #intro{
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 33px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: show 5s forwards;
+    }
+    
+    @keyframes show{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    
+    .library{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards;   
+    }
+    
+    #hex1{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 60px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.1s * var(--hex))
+    }
+    
+    
+    #hex2{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 135px;
+    }
+    
+    #hex3{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 210px;
+    }
+    #hex4{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 285px;
+    }
+    
+    #hex5{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 360px;
+    }
+    #hex6{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 435px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex7{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:75px;
+        left:95px;
+    }
+    #hex8{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:75px;
+        left:170px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex9{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:75px;
+        left:245px;
+    }
+    
+    #hex10{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:75px;
+        left:320px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex11{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:75px;
+        left:395px;
+    }
+    
+    #hex12{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:60px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex13{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:135px;
+    }
+    
+    #hex14{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:210px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex15{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:285px;
+    }
+    
+    #hex16{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:360px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex17{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:435px;
+    }
+    
+    #hex19{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:205px;
+        left:95px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex20{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:205px;
+        left:170px;
+    }
+    
+    #hex21{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:205px;
+        left:245px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex22{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:205px;
+        left:320px;
+    }
+    
+    #hex23{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:205px;
+        left:395px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex24{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:60px;
+    }
+    
+    #hex25{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:135px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex26{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:210px;
+    }
+    
+    #hex27{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:285px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex28{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:360px;
+    }
+    
+    #hex29{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 150px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:435px;
+    }
+    
+    
+    .content{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards; 
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    
+    #p1{
+        position: absolute;
+        top: 460px;
+        left: 45px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    
+    
+    #p2{
+        position: absolute;
+        top: 1500px;
+        left: 20px;
+        width: 45vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2300px;
+        right: 10px;
+        width: 45vw;
+    }
+    
+    #hex30{
+        position: absolute;
+        top: 3170px;
+        left: 240px;
+        font-size: 150px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3300px;
+        left: 45px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p5{
+        position: absolute;
+        top: 3450px;
+        left: 45px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p6{
+        position: absolute;
+        top: 3950px;
+        left: 40px;
+        width: 40vw;
+    }
+    
+    #p7{
+        position: absolute;
+        top: 3950px;
+        right: 30px;
+        width: 40vw;
+    }
+    
+    #p8{
+        position: absolute;
+        top: 4400px;
+        left: 45px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p9{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes showafter5s {
+        to{
+            visibility: visible;
+        }
+    }
+    
+    @keyframes flip{
+        0%,80% {
+            transform: rotateY(360deg) 
+          }
+    }
+    
+    @keyframes glow {
+        from {
+          filter: blur(2px);
+          text-shadow: 0 0 20px white;
+          opacity: 0.5;
+        }
+        to {
+          filter: blur(1px);
+          text-shadow: 0 0 50px white, 0 0 10px white;
+          opacity: 1;
+        }
+      }
+    
+      @keyframes glow2 {
+        from {
+          opacity: 0.5;
+          text-shadow: 0 0 20px white;
+        }
+        to {
+          opacity: 1;
+          text-shadow: 0 0 50px white, 0 0 10px white;
+        }
+      }
+    
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 2500px;
+        border: solid 4px white;
+        top: 650px;
+        left: 285px;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 800px;
+        border: solid 4px white;
+        top: 3600px;
+        left: 285px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    
+    #intro{
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 34px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: show 5s forwards;
+    }
+    
+    @keyframes show{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    
+    .library{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards;   
+    }
+    
+    #hex1{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 90px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.1s * var(--hex))
+    }
+    
+    
+    #hex2{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 180px;
+    }
+    
+    #hex3{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 270px;
+    }
+    #hex4{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 360px;
+    }
+    
+    #hex5{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 450px;
+    }
+    #hex6{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 540px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex7{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:88px;
+        left:135px;
+    }
+    #hex8{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:88px;
+        left:225px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex9{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:88px;
+        left:315px;
+    }
+    
+    #hex10{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:88px;
+        left:405px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex11{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:88px;
+        left:495px;
+    }
+    
+    #hex12{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:165px;
+        left:90px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex13{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:165px;
+        left:180px;
+    }
+    
+    #hex14{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:165px;
+        left:270px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex15{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:165px;
+        left:360px;
+    }
+    
+    #hex16{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:165px;
+        left:450px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex17{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:165px;
+        left:540px;
+    }
+    
+    #hex19{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:243px;
+        left:135px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex20{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:243px;
+        left:225px;
+    }
+    
+    #hex21{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:243px;
+        left:315px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex22{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:243px;
+        left:405px;
+    }
+    
+    #hex23{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:243px;
+        left:495px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex24{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:322px;
+        left:90px;
+    }
+    
+    #hex25{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:322px;
+        left:180px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex26{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:322px;
+        left:270px;
+    }
+    
+    #hex27{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:322px;
+        left:360px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex28{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:322px;
+        left:450px;
+    }
+    
+    #hex29{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 180px;
+        color: white;
+        position:absolute;
+        top:322px;
+        left:540px;
+    }
+    
+    
+    .content{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards; 
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    
+    #p1{
+        position: absolute;
+        top: 520px;
+        left: 45px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    
+    
+    #p2{
+        position: absolute;
+        top: 1500px;
+        left: 25px;
+        width: 45vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2300px;
+        right: 10px;
+        width: 45vw;
+    }
+    
+    #hex30{
+        position: absolute;
+        top: 3180px;
+        left: 325px;
+        font-size: 180px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3300px;
+        left: 65px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p5{
+        position: absolute;
+        top: 3450px;
+        left: 65px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p6{
+        position: absolute;
+        top: 3950px;
+        left: 40px;
+        width: 40vw;
+    }
+    
+    #p7{
+        position: absolute;
+        top: 3950px;
+        right: 30px;
+        width: 40vw;
+    }
+    
+    #p8{
+        position: absolute;
+        top: 4400px;
+        left: 45px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p9{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes showafter5s {
+        to{
+            visibility: visible;
+        }
+    }
+    
+    @keyframes flip{
+        0%,80% {
+            transform: rotateY(360deg) 
+          }
+    }
+    
+    @keyframes glow {
+        from {
+          filter: blur(2px);
+          text-shadow: 0 0 20px white;
+          opacity: 0.5;
+        }
+        to {
+          filter: blur(1px);
+          text-shadow: 0 0 50px white, 0 0 10px white;
+          opacity: 1;
+        }
+      }
+    
+      @keyframes glow2 {
+        from {
+          opacity: 0.5;
+          text-shadow: 0 0 20px white;
+        }
+        to {
+          opacity: 1;
+          text-shadow: 0 0 50px white, 0 0 10px white;
+        }
+      }
+    
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 2500px;
+        width: 2px;
+        background: white;
+        top: 650px;
+        left: 380px;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 800px;
+        width: 2px;
+        background: white;
+        top: 3600px;
+        left: 380px;
+    }
+}
+
+@media only screen and (min-width: 889px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    
+    #intro{
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 34px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: show 5s forwards;
+    }
+    
+    @keyframes show{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    
+    .library{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards;   
+    }
+    
+    #hex1{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 120px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.1s * var(--hex))
+    }
+    
+    
+    #hex2{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 220px;
+    }
+    
+    #hex3{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 320px;
+    }
+    #hex4{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 420px;
+    }
+    
+    #hex5{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 520px;
+    }
+    #hex6{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 620px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex7{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:95px;
+        left:170px;
+    }
+    #hex8{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:95px;
+        left:270px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex9{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:95px;
+        left:370px;
+    }
+    
+    #hex10{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:95px;
+        left:470px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex11{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:95px;
+        left:570px;
+    }
+    
+    #hex12{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:183px;
+        left:120px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex13{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:183px;
+        left:220px;
+    }
+    
+    #hex14{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:183px;
+        left:320px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex15{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:183px;
+        left:420px;
+    }
+    
+    #hex16{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:183px;
+        left:520px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex17{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:183px;
+        left:620px;
+    }
+    
+    #hex19{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:170px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex20{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:270px;
+    }
+    
+    #hex21{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:370px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex22{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:470px;
+    }
+    
+    #hex23{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:570px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex24{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:355px;
+        left:120px;
+    }
+    
+    #hex25{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:355px;
+        left:220px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex26{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:355px;
+        left:320px;
+    }
+    
+    #hex27{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:355px;
+        left:420px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex28{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:355px;
+        left:520px;
+    }
+    
+    #hex29{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 200px;
+        color: white;
+        position:absolute;
+        top:355px;
+        left:620px;
+    }
+    
+    
+    .content{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards; 
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    
+    #p1{
+        position: absolute;
+        top: 580px;
+        left: 70px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    
+    
+    #p2{
+        position: absolute;
+        top: 1500px;
+        left: 30px;
+        width: 45vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2300px;
+        right: 10px;
+        width: 45vw;
+    }
+    
+    #hex30{
+        position: absolute;
+        top: 3280px;
+        left: 387px;
+        font-size: 200px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3450px;
+        left: 65px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p5{
+        position: absolute;
+        top: 3600px;
+        left: 65px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p6{
+        position: absolute;
+        top: 4150px;
+        left: 65px;
+        width: 40vw;
+    }
+    
+    #p7{
+        position: absolute;
+        top: 4150px;
+        right: 30px;
+        width: 40vw;
+    }
+    
+    #p8{
+        position: absolute;
+        top: 4750px;
+        left: 55px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p9{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes showafter5s {
+        to{
+            visibility: visible;
+        }
+    }
+    
+    @keyframes flip{
+        0%,80% {
+            transform: rotateY(360deg) 
+          }
+    }
+    
+    @keyframes glow {
+        from {
+          filter: blur(2px);
+          text-shadow: 0 0 20px white;
+          opacity: 0.5;
+        }
+        to {
+          filter: blur(1px);
+          text-shadow: 0 0 50px white, 0 0 10px white;
+          opacity: 1;
+        }
+      }
+    
+      @keyframes glow2 {
+        from {
+          opacity: 0.5;
+          text-shadow: 0 0 20px white;
+        }
+        to {
+          opacity: 1;
+          text-shadow: 0 0 50px white, 0 0 10px white;
+        }
+      }
+    
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 2500px;
+        width: 2px;
+        background: white;
+        top: 750px;
+        left: 450px;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 950px;
+        width: 2px;
+        background: white;
+        top: 3800px;
+        left: 450px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    
+    #intro{
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: show 5s forwards;
+    }
+    
+    @keyframes show{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    
+    .library{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards;   
+    }
+    
+    #hex1{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 150px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.1s * var(--hex))
+    }
+    
+    
+    #hex2{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 265px;
+    }
+    
+    #hex3{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 380px;
+    }
+    #hex4{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 495px;
+    }
+    
+    #hex5{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 610px;
+    }
+    #hex6{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 725px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex7{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:110px;
+        left:205px;
+    }
+    #hex8{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:110px;
+        left:320px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex9{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:110px;
+        left:435px;
+    }
+    
+    #hex10{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:110px;
+        left:550px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex11{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:110px;
+        left:665px;
+    }
+    
+    #hex12{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:209px;
+        left:145px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex13{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:209px;
+        left:260px;
+    }
+    
+    #hex14{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:209px;
+        left:375px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex15{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:209px;
+        left:490px;
+    }
+    
+    #hex16{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:209px;
+        left:605px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex17{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:209px;
+        left:720px;
+    }
+    
+    #hex19{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:310px;
+        left:200px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex20{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:310px;
+        left:315px;
+    }
+    
+    #hex21{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:310px;
+        left:430px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex22{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:310px;
+        left:545px;
+    }
+    
+    #hex23{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:310px;
+        left:660px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex24{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:410px;
+        left:140px;
+    }
+    
+    #hex25{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:410px;
+        left:255px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex26{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:410px;
+        left:370px;
+    }
+    
+    #hex27{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:410px;
+        left:485px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex28{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:410px;
+        left:600px;
+    }
+    
+    #hex29{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 230px;
+        color: white;
+        position:absolute;
+        top:410px;
+        left:715px;
+    }
+    
+    
+    .content{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards; 
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 18px;
+        line-height: 30px;  
+    }
+    
+    
+    #p1{
+        position: absolute;
+        top: 680px;
+        left: 70px;
+        width: 90vw;
+        font-size: 25px;
+    }
+    
+    
+    
+    #p2{
+        position: absolute;
+        top: 1500px;
+        left: 50px;
+        width: 45vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2300px;
+        right: 10px;
+        width: 45vw;
+    }
+    
+    #hex30{
+        position: absolute;
+        top: 3714px;
+        left: 428px;
+        font-size: 230px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3900px;
+        left: 65px;
+        width: 90vw;
+        font-size: 25px;
+    }
+    
+    #p5{
+        position: absolute;
+        top: 4100px;
+        left: 65px;
+        width: 90vw;
+        font-size: 25px;
+    }
+    
+    #p6{
+        position: absolute;
+        top: 4700px;
+        left: 65px;
+        width: 40vw;
+    }
+    
+    #p7{
+        position: absolute;
+        top: 4700px;
+        right: 30px;
+        width: 40vw;
+    }
+    
+    #p8{
+        position: absolute;
+        top: 5300px;
+        left: 55px;
+        width: 90vw;
+        font-size: 25px;
+    }
+    
+    #p9{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes showafter5s {
+        to{
+            visibility: visible;
+        }
+    }
+    
+    @keyframes flip{
+        0%,80% {
+            transform: rotateY(360deg) 
+          }
+    }
+    
+    @keyframes glow {
+        from {
+          filter: blur(2px);
+          text-shadow: 0 0 20px white;
+          opacity: 0.5;
+        }
+        to {
+          filter: blur(1px);
+          text-shadow: 0 0 50px white, 0 0 10px white;
+          opacity: 1;
+        }
+      }
+    
+      @keyframes glow2 {
+        from {
+          opacity: 0.5;
+          text-shadow: 0 0 20px white;
+        }
+        to {
+          opacity: 1;
+          text-shadow: 0 0 50px white, 0 0 10px white;
+        }
+      }
+    
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 2800px;
+        width: 2px;
+        background: white;
+        top: 880px;
+        left: 500px;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 1000px;
+        width: 2px;
+        background: white;
+        top: 4300px;
+        left: 500px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    
+    #intro{
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        line-height: 45px;
+        margin-top: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: show 5s forwards;
+    }
+    
+    @keyframes show{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    
+    .library{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards;   
+    }
+    
+    #hex1{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 235px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.1s * var(--hex))
+    }
+    
+    
+    #hex2{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 385px;
+    }
+    
+    #hex3{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 535px;
+    }
+    #hex4{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 685px;
+    }
+    
+    #hex5{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 835px;
+    }
+    #hex6{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:10px;
+        left: 985px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex7{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:310px;
+    }
+    #hex8{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:460px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex9{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:610px;
+    }
+    
+    #hex10{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:760px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex11{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:140px;
+        left:910px;
+    }
+    
+    #hex12{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:235px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex13{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:385px;
+    }
+    
+    #hex14{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:535px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex15{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:685px;
+    }
+    
+    #hex16{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:835px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex17{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:270px;
+        left:985px;
+    }
+    
+    #hex19{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:310px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex20{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:460px;
+    }
+    
+    #hex21{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:610px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex22{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:760px;
+    }
+    
+    #hex23{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:910px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex24{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:235px;
+    }
+    
+    #hex25{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:385px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex26{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:535px;
+    }
+    
+    #hex27{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:685px;
+        animation: flip 3s infinite, glow 2s ease-in-out infinite alternate;
+        animation-delay: calc(.3s * var(--hex))
+    }
+    
+    #hex28{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:835px;
+    }
+    
+    #hex29{
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 300px;
+        color: white;
+        position:absolute;
+        top:530px;
+        left:985px;
+    }
+    
+    
+    .content{
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards; 
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        line-height: 33px;  
+    }
+    
+    
+    #p1{
+        position: absolute;
+        top: 930px;
+        left: 90px;
+        width: 90vw;
+        font-size: 28px;
+    }
+    
+    
+    
+    #p2{
+        position: absolute;
+        top: 2000px;
+        left: 50px;
+        width: 45vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2800px;
+        right: 20px;
+        width: 45vw;
+    }
+    
+    #hex30{
+        position: absolute;
+        top: 4250px;
+        left: 617px;
+        font-size: 300px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 4500px;
+        left: 80px;
+        width: 90vw;
+        font-size: 28px;
+    }
+    
+    #p5{
+        position: absolute;
+        top: 4700px;
+        left: 80px;
+        width: 90vw;
+        font-size: 28px;
+    }
+    
+    #p6{
+        position: absolute;
+        top: 5500px;
+        left: 85px;
+        width: 40vw;
+    }
+    
+    #p7{
+        position: absolute;
+        top: 5500px;
+        right: 10px;
+        width: 40vw;
+    }
+    
+    #p8{
+        position: absolute;
+        top: 6000px;
+        left: 75px;
+        width: 90vw;
+        font-size: 28px;
+    }
+    
+    #p9{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes showafter5s {
+        to{
+            visibility: visible;
+        }
+    }
+    
+    @keyframes flip{
+        0%,80% {
+            transform: rotateY(360deg) 
+          }
+    }
+    
+    @keyframes glow {
+        from {
+          filter: blur(2px);
+          text-shadow: 0 0 20px white;
+          opacity: 0.5;
+        }
+        to {
+          filter: blur(1px);
+          text-shadow: 0 0 50px white, 0 0 10px white;
+          opacity: 1;
+        }
+      }
+    
+      @keyframes glow2 {
+        from {
+          opacity: 0.5;
+          text-shadow: 0 0 20px white;
+        }
+        to {
+          opacity: 1;
+          text-shadow: 0 0 50px white, 0 0 10px white;
+        }
+      }
+    
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+        visibility:hidden;
+        animation: showafter5s 0s ease-in 5s forwards, glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 3000px;
+        width: 5px;
+        background: white;
+        top: 1200px;
+        left: 710px;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 1100px;
+        width: 5px;
+        background: white;
+        top: 4900px;
+        left: 710px;
+    }
+}
+
+
+
+
+

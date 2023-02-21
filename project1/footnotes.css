@@ -1,0 +1,778 @@
+@media only screen and (min-width: 375px){
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 300px;
+    color: white;
+}
+
+#hex1{
+    animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+}
+
+#path1{
+    position: absolute;
+    height: 795px;
+    border: solid 6px white;
+    top: 0px;
+    left: 483px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#path2{
+    position: absolute;
+    height: 800px;
+    border: solid 6px white;
+    top: 980px;
+    left: 483px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.content{
+    color: white;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 30px;
+    line-height: 50px;  
+}
+
+#p1{
+    position: absolute;
+    top: 1850px;
+    left: 60px;
+    width: 90vw;
+    font-size: 40px;
+}
+
+#p2{
+    position: absolute;
+    top: 2800px;
+    left: 60px;
+    width: 40vw;
+}
+
+#p3{
+    position: absolute;
+    top: 3500px;
+    right: 50px;
+    width: 40vw;
+}
+
+#p4{
+    position: absolute;
+    top: 4300px;
+    left: 50px;
+    width: 90vw;
+}
+
+
+#path3{
+    position: absolute;
+    height: 1800px;
+    border: solid 6px white;
+    top: 2500px;
+    left: 483px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#p5{
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:black;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }
+
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+
+@keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 150px;
+        color: white;
+    }
+    
+    #hex1{
+        position: absolute;
+        top:275px;
+        left: 250px;
+        animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 330px;
+        border: solid 4px white;
+        top: 0px;
+        left: 296px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 800px;
+        border: solid 4px white;
+        top: 420px;
+        left: 296px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    #p1{
+        position: absolute;
+        top: 1300px;
+        left: 60px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p2{
+        position: absolute;
+        top: 2000px;
+        left: 40px;
+        width: 40vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2400px;
+        right: 30px;
+        width: 40vw;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3100px;
+        left: 50px;
+        width: 90vw;
+    }
+    
+    
+    #path3{
+        position: absolute;
+        height: 1500px;
+        border: solid 4px white;
+        top: 1650px;
+        left: 296px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p5{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes flip {
+        0%,80% {
+          transform: rotateY(360deg) 
+        }
+      }
+    
+    
+    @keyframes glow {
+        from {
+            filter: blur(2px);
+            text-shadow: 0 0 20px white;
+            opacity: 0.5;
+        }
+        to {
+            filter: blur(1px);
+            text-shadow: 0 0 50px white, 0 0 10px white;
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 150px;
+        color: white;
+    }
+    
+    #hex1{
+        position: absolute;
+        top:275px;
+        left: 333px;
+        animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 330px;
+        border: solid 4px white;
+        top: 0px;
+        left: 380px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 800px;
+        border: solid 4px white;
+        top: 420px;
+        left: 380px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    #p1{
+        position: absolute;
+        top: 1300px;
+        left: 60px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p2{
+        position: absolute;
+        top: 2000px;
+        left: 40px;
+        width: 40vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2400px;
+        right: 30px;
+        width: 40vw;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3100px;
+        left: 50px;
+        width: 90vw;
+    }
+    
+    
+    #path3{
+        position: absolute;
+        height: 1500px;
+        border: solid 4px white;
+        top: 1650px;
+        left: 380px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p5{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+    
+    @keyframes flip {
+        0%,80% {
+            transform: rotateY(360deg) 
+        }
+        }
+    
+    
+    @keyframes glow {
+        from {
+            filter: blur(2px);
+            text-shadow: 0 0 20px white;
+            opacity: 0.5;
+        }
+        to {
+            filter: blur(1px);
+            text-shadow: 0 0 50px white, 0 0 10px white;
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 889px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 200px;
+        color: white;
+    }
+    
+    #hex1{
+        position: absolute;
+        top:275px;
+        left: 370px;
+        animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 350px;
+        border: solid 4px white;
+        top: 0px;
+        left: 433px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 800px;
+        border: solid 4px white;
+        top: 470px;
+        left: 433px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    #p1{
+        position: absolute;
+        top: 1300px;
+        left: 60px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p2{
+        position: absolute;
+        top: 2000px;
+        left: 40px;
+        width: 40vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2400px;
+        right: 35px;
+        width: 40vw;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3100px;
+        left: 60px;
+        width: 90vw;
+    }
+    
+    
+    #path3{
+        position: absolute;
+        height: 1500px;
+        border: solid 4px white;
+        top: 1650px;
+        left: 433px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p5{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+    
+    @keyframes flip {
+        0%,80% {
+            transform: rotateY(360deg) 
+        }
+        }
+    
+    
+    @keyframes glow {
+        from {
+            filter: blur(2px);
+            text-shadow: 0 0 20px white;
+            opacity: 0.5;
+        }
+        to {
+            filter: blur(1px);
+            text-shadow: 0 0 50px white, 0 0 10px white;
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 992px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 250px;
+        color: white;
+    }
+    
+    #hex1{
+        position: absolute;
+        top:275px;
+        left: 420px;
+        animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 370px;
+        border: solid 6px white;
+        top: 0px;
+        left: 498px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 1000px;
+        border: solid 6px white;
+        top: 520px;
+        left: 498px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 30px;  
+    }
+    
+    #p1{
+        position: absolute;
+        top: 1600px;
+        left: 60px;
+        width: 90vw;
+        font-size: 20px;
+    }
+    
+    #p2{
+        position: absolute;
+        top: 2400px;
+        left: 40px;
+        width: 40vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 2900px;
+        right: 35px;
+        width: 40vw;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 3680px;
+        left: 60px;
+        width: 90vw;
+    }
+    
+    
+    #path3{
+        position: absolute;
+        height: 1800px;
+        border: solid 6px white;
+        top: 1900px;
+        left: 498px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p5{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+    
+    @keyframes flip {
+        0%,80% {
+            transform: rotateY(360deg) 
+        }
+        }
+    
+    
+    @keyframes glow {
+        from {
+            filter: blur(2px);
+            text-shadow: 0 0 20px white;
+            opacity: 0.5;
+        }
+        to {
+            filter: blur(1px);
+            text-shadow: 0 0 50px white, 0 0 10px white;
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #hex1{
+        position: absolute;
+        top:275px;
+        left: 620px;
+        animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path1{
+        position: absolute;
+        height: 385px;
+        border: solid 6px white;
+        top: 0px;
+        left: 713px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #path2{
+        position: absolute;
+        height: 1500px;
+        border: solid 6px white;
+        top: 565px;
+        left: 713px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        color: white;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        line-height: 30px;  
+    }
+    
+    #p1{
+        position: absolute;
+        top: 2100px;
+        left: 100px;
+        width: 90vw;
+        font-size: 25px;
+    }
+    
+    #p2{
+        position: absolute;
+        top: 3000px;
+        left: 60px;
+        width: 40vw;
+    }
+    
+    #p3{
+        position: absolute;
+        top: 3700px;
+        right: 55px;
+        width: 40vw;
+    }
+    
+    #p4{
+        position: absolute;
+        top: 4600px;
+        left: 80px;
+        width: 90vw;
+    }
+    
+    
+    #path3{
+        position: absolute;
+        height: 2200px;
+        border: solid 6px white;
+        top: 2400px;
+        left: 713px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #p5{
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+    
+    @keyframes flip {
+        0%,80% {
+            transform: rotateY(360deg) 
+        }
+        }
+    
+    
+    @keyframes glow {
+        from {
+            filter: blur(2px);
+            text-shadow: 0 0 20px white;
+            opacity: 0.5;
+        }
+        to {
+            filter: blur(1px);
+            text-shadow: 0 0 50px white, 0 0 10px white;
+            opacity: 1;
+        }
+        }
+}

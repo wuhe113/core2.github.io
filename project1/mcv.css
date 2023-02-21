@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    position: relative;
+    text-align: center;
+  }
+  
+  .content span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 95px;
+    color: white;
+    animation: flip 4s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+@keyframes flip {
+0%,80% {
+    transform: rotateY(360deg) 
+}
+}
+
+  a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:white;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }

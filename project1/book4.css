@@ -1,0 +1,1897 @@
+@media only screen and (min-width: 375px){
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 300px;
+    color: white;
+}
+
+#path1{
+    position: absolute;
+    width: 500px;
+    border: solid 6px white;
+    top: 300px;
+    left: 250px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.content{
+    position: relative;
+
+}
+
+#text1{
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 30px;
+    line-height: 65px;
+    text-indent:50px;
+    text-align: left;
+    width: 80vw;
+    height: 55vh;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: scroll;
+    margin-top: -530px;
+    margin-left: -380px;
+
+}
+
+#path2{
+    position: absolute;
+    width: 500px;
+    border: solid 6px white;
+    top: 1340px;
+    left: 250px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.background span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 100px;
+    color: white;
+  }
+  
+  #maze1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 100px;
+    border-top: solid 6px white;
+    border-left: solid 6px white;
+  }
+
+  #maze2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 100px;
+    border-top: solid 6px white;
+    border-right: solid 6px white;
+  }
+
+  #maze3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 80px;
+    height: 100px;
+    border-bottom: solid 6px white;
+    border-left: solid 6px white;
+  }
+
+  #maze4{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 100px;
+    border-bottom: solid 6px white;
+    border-right: solid 6px white;
+  }
+
+  #button{
+    position: absolute;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 40px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+    top: 1390px;
+    left: 430px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:black;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }
+
+
+@keyframes glow {
+from {
+    filter: blur(2px);
+    text-shadow: 0 0 20px white;
+    opacity: 0.5;
+}
+to {
+    filter: blur(1px);
+    text-shadow: 0 0 50px white, 0 0 10px white;
+    opacity: 1;
+}
+}
+
+}
+
+/* @media only screen and (min-width: 600px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 300px;
+        border: solid 4px white;
+        top: 80px;
+        left: 150px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 65vw;
+        height: 55vh;
+        box-sizing: border-box;
+        overflow: scroll;
+        top: 300px;
+        left: 190px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 300px;
+        border: solid 4px white;
+        top: 565px;
+        left: 150px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 270px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+} */
+
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 40vw;
+        border: solid 4px white;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 65vw;
+        height: 55vh;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: absolute;
+        margin-top: auto;
+        margin-left: auto;
+        color: white;
+    }
+    
+    #path2{
+        position: absolute;
+        border: solid 4px white;
+        top: 81%;
+        left: 30%;
+        width: 40vw;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 83%;
+        left: 60%;
+        width: 40vw;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+
+/* @media only screen and (min-width: 650px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 350px;
+        border: solid 4px white;
+        top: 120px;
+        left: 150px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 165px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 350px;
+        border: solid 4px white;
+        top: 565px;
+        left: 150px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 285px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 700px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 355px;
+        border: solid 4px white;
+        top: 120px;
+        left: 180px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 140px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 355px;
+        border: solid 4px white;
+        top: 565px;
+        left: 180px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 315px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 355px;
+        border: solid 4px white;
+        top: 120px;
+        left: 190px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 130px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 355px;
+        border: solid 4px white;
+        top: 565px;
+        left: 190px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 330px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 355px;
+        border: solid 4px white;
+        top: 120px;
+        left: 210px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 130px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 355px;
+        border: solid 4px white;
+        top: 565px;
+        left: 210px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 350px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 850px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 360px;
+        border: solid 4px white;
+        top: 120px;
+        left: 245px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 100px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 360px;
+        border: solid 4px white;
+        top: 565px;
+        left: 245px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 385px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 889px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 365px;
+        border: solid 4px white;
+        top: 120px;
+        left: 255px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 95px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 365px;
+        border: solid 4px white;
+        top: 565px;
+        left: 255px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 380px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 950px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 370px;
+        border: solid 4px white;
+        top: 120px;
+        left: 285px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 75px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 370px;
+        border: solid 4px white;
+        top: 565px;
+        left: 285px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 440px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 992px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 375px;
+        border: solid 4px white;
+        top: 120px;
+        left: 300px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 50px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 375px;
+        border: solid 4px white;
+        top: 565px;
+        left: 300px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 460px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 1050px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 375px;
+        border: solid 4px white;
+        top: 120px;
+        left: 340px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 50px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 375px;
+        border: solid 4px white;
+        top: 565px;
+        left: 340px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 495px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+}
+
+@media only screen and (min-width: 1132px){
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .path span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 300px;
+        color: white;
+    }
+    
+    #path1{
+        position: absolute;
+        width: 380px;
+        border: solid 4px white;
+        top: 120px;
+        left: 375px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .content{
+        position: relative;
+    
+    }
+    
+    #text1{
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent:50px;
+        text-align: left;
+        width: 67vw;
+        height: 55vh;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: scroll;
+        top: 300px;
+        left: 30px;
+    
+    }
+    
+    #path2{
+        position: absolute;
+        width: 380px;
+        border: solid 4px white;
+        top: 565px;
+        left: 375px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: white;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-left: solid 6px white;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px white;
+        border-right: solid 6px white;
+      }
+    
+      #button{
+        position: absolute;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        color: white;
+        animation: glow 2s ease-in-out infinite alternate;
+        top: 580px;
+        left: 540px;
+    }
+    
+    a:link{
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:white;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+    
+    @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px white;
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px white, 0 0 10px white;
+        opacity: 1;
+    }
+    }
+    
+} */

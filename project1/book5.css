@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 300px;
+    color: black;
+}
+
+#path1{
+    position: absolute;
+    border: solid 4px black;
+    top: 20%;
+    left: 30%;
+    width: 40vw;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+#text1{
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-indent:50px;
+    text-align: left;
+    width: 65vw;
+    height: 55vh;
+    box-sizing: border-box;
+    overflow: scroll;
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+
+}
+
+#path2{
+    position: absolute;
+    border: solid 4px black;
+    top: 81%;
+    left: 30%;
+    width: 40vw;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.background span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 100px;
+    color: black;
+  }
+  
+  #maze1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 100px;
+    border-top: solid 6px black;
+    border-left: solid 6px black;
+  }
+
+  #maze2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 100px;
+    border-top: solid 6px black;
+    border-right: solid 6px black;
+  }
+
+  #maze3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 80px;
+    height: 100px;
+    border-bottom: solid 6px black;
+    border-left: solid 6px black;
+  }
+
+  #maze4{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 100px;
+    border-bottom: solid 6px black;
+    border-right: solid 6px black;
+  }
+
+  #button{
+    position: absolute;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 20px;
+    color: black;
+    animation: glow 2s ease-in-out infinite alternate;
+    top: 83%;
+    left: 60%;
+    width: 40vw;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:white;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }
+
+
+@keyframes glow {
+from {
+    filter: blur(2px);
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    opacity: 0.5;
+}
+to {
+    filter: blur(1px);
+    text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+    opacity: 1;
+}
+}

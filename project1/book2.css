@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: white;
+}
+
+
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 300px;
+    color: black;
+}
+
+#path1{
+    position: absolute;
+    width: 500px;
+    border: solid 6px black;
+    top: 180px;
+    left: 0px;
+}
+
+#path2{
+    position: absolute;
+    height: 200px;
+    border: solid 6px black;
+    top: 180px;
+    left: 500px;
+}
+
+.content{
+    position: relative;
+
+}
+
+.text{
+    border: solid 10px black;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    text-indent: 50px;
+    text-align: left;
+    column-width: 50vw;
+    width: 800px;
+    height: 1200px;
+    column-gap: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+    top:390px;
+    left:150px;
+}
+
+#button{
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 35px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:white;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }
+
+  @keyframes glow {
+    from {
+        filter: blur(2px);
+        text-shadow: 0 0 20px rgb(0, 0, 0);
+        opacity: 0.5;
+    }
+    to {
+        filter: blur(1px);
+        text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+        opacity: 1;
+    }
+    }

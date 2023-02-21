@@ -1,0 +1,484 @@
+@media only screen and (min-width: 375px){
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: black;
+}
+
+
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 300px;
+    color: white;
+}
+
+#hex1{
+    position: absolute;
+    top: 280px;
+    left: 105px;
+    animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+@keyframes glow {
+from {
+    filter: blur(2px);
+    text-shadow: 0 0 20px white;
+    opacity: 0.5;
+}
+to {
+    filter: blur(1px);
+    text-shadow: 0 0 50px white, 0 0 10px white;
+    opacity: 1;
+}
+}
+
+#path1{
+    position: absolute;
+    height: 200px;
+    border: solid 6px white;
+    top: 190px;
+    left: 200px;
+}
+
+#path2{
+    position: absolute;
+    width: 1000px;
+    border: solid 6px white;
+    top: 180px;
+    left: 200px;
+}
+
+#path3{
+    position: absolute;
+    height: 500px;
+    border: solid 6px white;
+    top: 570px;
+    left: 200px;
+}
+
+#path4{
+    position: absolute;
+    width: 500px;
+    border: solid 6px white;
+    top: 1080px;
+    left: 200px;
+}
+
+#path5{
+    position: absolute;
+    height: 1500px;
+    border: solid 6px white;
+    top: 1080px;
+    left: 700px;
+}
+
+#path6{
+    position: absolute;
+    width: 300px;
+    border: solid 6px white;
+    top: 2590px;
+    left: 400px;
+}
+
+#path7{
+    position: absolute;
+    height: 1700px;
+    border: solid 6px white;
+    top: 2590px;
+    left: 400px;
+}
+
+#hex2{
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 50px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.content{
+    position: relative;
+
+}
+
+.text{
+    border: solid 10px white;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 45px;
+    line-height: 55px;
+    text-indent: 50px;
+    text-align: left;
+    column-width: 50vw;
+    width: 800px;
+    height: 1200px;
+    column-gap: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+    top: 4295px;
+    left: 200px;
+
+}
+
+#button1{
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 40px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:black;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: black;
+}
+
+
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 150px;
+    color: white;
+}
+
+#hex1{
+    position: absolute;
+    top: 280px;
+    left: 105px;
+    animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg) 
+    }
+    }
+
+@keyframes glow {
+from {
+    filter: blur(2px);
+    text-shadow: 0 0 20px white;
+    opacity: 0.5;
+}
+to {
+    filter: blur(1px);
+    text-shadow: 0 0 50px white, 0 0 10px white;
+    opacity: 1;
+}
+}
+
+#path1{
+    position: absolute;
+    height: 150px;
+    border: solid 4px white;
+    top: 185px;
+    left: 151px;
+}
+
+#path2{
+    position: absolute;
+    width: 500px;
+    border: solid 4px white;
+    top: 180px;
+    left: 151px;
+}
+
+#path3{
+    position: absolute;
+    height: 300px;
+    border: solid 4px white;
+    top: 425px;
+    left: 151px;
+}
+
+#path4{
+    position: absolute;
+    width: 200px;
+    border: solid 4px white;
+    top: 730px;
+    left: 151px;
+}
+
+#path5{
+    position: absolute;
+    height: 1000px;
+    border: solid 4px white;
+    top: 730px;
+    left: 351px;
+}
+
+#path6{
+    position: absolute;
+    width: 100px;
+    border: solid 4px white;
+    top: 1735px;
+    left: 251px;
+}
+
+#path7{
+    position: absolute;
+    height: 1200px;
+    border: solid 4px white;
+    top: 1740px;
+    left: 251px;
+}
+
+#hex2{
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 50px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.content{
+    position: relative;
+
+}
+
+.text{
+    border: solid 10px white;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    text-indent: 50px;
+    text-align: left;
+    column-width: 50vw;
+    width: 500px;
+    height: 800px;
+    column-gap: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+    top: 2945px;
+    left: 100px;
+
+}
+
+#button1{
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 40px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    }
+    
+    a:visited{
+    color:black;
+    text-decoration: none;
+    }
+    
+    a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+    }
+} */
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: black;
+}
+
+
+
+.path span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 300px;
+    color: white;
+}
+
+#hex1{
+    position: absolute;
+    top: 280px;
+    left: 105px;
+    animation: flip 2s infinite,  glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg) 
+    }
+    }
+
+@keyframes glow {
+from {
+    filter: blur(2px);
+    text-shadow: 0 0 20px white;
+    opacity: 0.5;
+}
+to {
+    filter: blur(1px);
+    text-shadow: 0 0 50px white, 0 0 10px white;
+    opacity: 1;
+}
+}
+
+#path1{
+    position: absolute;
+    height: 200px;
+    border: solid 6px white;
+    top: 190px;
+    left: 200px;
+}
+
+#path2{
+    position: absolute;
+    width: 100vw;
+    border: solid 6px white;
+    top: 180px;
+    left: 200px;
+}
+
+#path3{
+    position: absolute;
+    height: 500px;
+    border: solid 6px white;
+    top: 570px;
+    left: 200px;
+}
+
+#path4{
+    position: absolute;
+    width: 500px;
+    border: solid 6px white;
+    top: 1080px;
+    left: 200px;
+}
+
+#path5{
+    position: absolute;
+    height: 1500px;
+    border: solid 6px white;
+    top: 1080px;
+    left: 700px;
+}
+
+#path6{
+    position: absolute;
+    width: 300px;
+    border: solid 6px white;
+    top: 2590px;
+    left: 400px;
+}
+
+#path7{
+    position: absolute;
+    height: 1700px;
+    border: solid 6px white;
+    top: 2590px;
+    left: 400px;
+}
+
+#hex2{
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 50px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.content{
+    position: relative;
+
+}
+
+.text{
+    border: solid 10px white;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 50px;
+    text-align: left;
+    column-width: 50vw;
+    width: 500px;
+    height: 700px;
+    column-gap: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+    top: 4295px;
+    left: 200px;
+
+}
+
+#button1{
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 25px;
+    color: white;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    }
+    
+    a:visited{
+    color:black;
+    text-decoration: none;
+    }
+    
+    a:active{
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+    }

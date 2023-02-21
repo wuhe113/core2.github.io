@@ -1,0 +1,2063 @@
+@media only screen and (max-width: 375px) {
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: white;
+}
+
+.path{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 100px;
+    height: 100vh;
+    border: solid 6px black;
+}
+
+.content{
+    position: relative;
+    color: black;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#p1{
+    position: absolute;
+    width: 45vw;
+    top: 550px;
+    left: 30px;
+}
+
+#p2{
+    position: absolute;
+    width: 45vw;
+    top: 630px;
+    left:520px;
+    transform: scaleX(-1);
+}
+
+
+#light1{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px black;
+    border-radius: 100%;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#light2{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px black;
+    border-radius: 100%;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#button1{
+    color: black;
+    text-align: center;
+    font-family: 'Steamflix Grotesk', sans-serif;
+}
+
+#button2{
+    color: black;
+    text-align: center;
+    font-family: 'Steamflix Grotesk', sans-serif;
+    transform: scaleX(-1);
+}
+
+.background span {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lment-v02', sans-serif;
+    font-size: 100px;
+    color: black;
+  }
+  
+  #maze1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 100px;
+    border-top: solid 6px black;
+    border-left: solid 6px black;
+  }
+
+  #maze2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 100px;
+    border-top: solid 6px black;
+    border-right: solid 6px black;
+  }
+
+  #maze3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 80px;
+    height: 100px;
+    border-bottom: solid 6px black;
+    border-left: solid 6px black;
+  }
+
+  #maze4{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 100px;
+    border-bottom: solid 6px black;
+    border-right: solid 6px black;
+  }
+
+
+a:link{
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:black;
+    text-decoration: none;
+  }
+  
+  a:active{
+    color:black;
+    text-decoration: none;
+    opacity: 0;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px rgb(0, 0, 0);
+      opacity: 0.5;
+    }
+    to {
+      text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 6px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 45vw;
+        top: 550px;
+        left: 30px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 45vw;
+        top: 630px;
+        left:520px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 400px;
+        left: 200px;
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 400px;
+        left: 700px;
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 20px rgb(0, 0, 0);
+          opacity: 0.5;
+        }
+        to {
+          text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+          opacity: 1;
+        }
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 250px;
+        left: 30px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 270px;
+        left:325px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 130px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 435px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 20px rgb(0, 0, 0);
+          opacity: 0.5;
+        }
+        to {
+          text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+          opacity: 1;
+        }
+      }
+}
+
+@media only screen and (min-width: 650px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 250px;
+        left: 30px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 270px;
+        left:375px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 130px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 485px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 20px rgb(0, 0, 0);
+          opacity: 0.5;
+        }
+        to {
+          text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+          opacity: 1;
+        }
+      }
+}
+
+@media only screen and (min-width: 700px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 250px;
+        left: 30px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 270px;
+        left:395px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 130px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 520px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+      }
+      
+      #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+      #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+      }
+    
+      #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+      }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+      }
+      
+      a:visited{
+        color:black;
+        text-decoration: none;
+      }
+      
+      a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+      }
+    
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 20px rgb(0, 0, 0);
+          opacity: 0.5;
+        }
+        to {
+          text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+          opacity: 1;
+        }
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 260px;
+        left: 35px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 290px;
+        left:425px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 550px;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 260px;
+        left: 35px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 290px;
+        left:470px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 605px;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 889px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 265px;
+        left: 43px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 295px;
+        left:490px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 185px;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 635px;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 920px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 40vw;
+        top: 265px;
+        left: 43px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 40vw;
+        top: 295px;
+        left:515px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 150px;
+        left: 185px;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 150px;
+        left: 670px;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 41vw;
+        top: 270px;
+        left: 45px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 41vw;
+        top: 300px;
+        left:570px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 145px;
+        left: 200px;
+        width: 68px;
+        height: 68px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 145px;
+        left: 740px;
+        width: 68px;
+        height: 68px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 1050px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 43vw;
+        top: 300px;
+        left: 40px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 43vw;
+        top: 330px;
+        left:565px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 145px;
+        left: 250px;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 145px;
+        left: 775px;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
+@media only screen and (min-width: 1100px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 43vw;
+        top: 300px;
+        left: 40px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 43vw;
+        top: 330px;
+        left:620px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 145px;
+        left: 250px;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 145px;
+        left: 835px;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+    }
+
+@media only screen and (min-width: 1200px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background: white;
+    }
+    
+    .path{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        height: 100vh;
+        border: solid 4px black;
+    }
+    
+    .content{
+        position: relative;
+        color: black;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    #p1{
+        position: absolute;
+        width: 44vw;
+        top: 300px;
+        left: 40px;
+    }
+    
+    #p2{
+        position: absolute;
+        width: 44vw;
+        top: 330px;
+        left:760px;
+        transform: scaleX(-1);
+    }
+    
+    
+    #light1{
+        position: absolute;
+        top: 145px;
+        left: 320px;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #light2{
+        position: absolute;
+        top: 145px;
+        left: 1050px;
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        box-shadow: 2px 2px 20px 2px black;
+        border-radius: 100%;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    #button1{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+    }
+    
+    #button2{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-family: 'Steamflix Grotesk', sans-serif;
+        transform: scaleX(-1);
+    }
+    
+    .background span {
+        position: relative;
+        display: inline-block;
+        font-family: 'Lment-v02', sans-serif;
+        font-size: 100px;
+        color: black;
+        }
+        
+        #maze1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-top: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+        #maze3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-left: solid 6px black;
+        }
+    
+        #maze4{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 100px;
+        border-bottom: solid 6px black;
+        border-right: solid 6px black;
+        }
+    
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        color:black;
+        text-decoration: none;
+        }
+        
+        a:active{
+        color:black;
+        text-decoration: none;
+        opacity: 0;
+        }
+    
+        @keyframes glow {
+        from {
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            opacity: 0.5;
+        }
+        to {
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+            opacity: 1;
+        }
+        }
+}
+
