@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
 body{
   background-color: white;
   padding: 0;
@@ -269,9 +269,17 @@ a:active{
   border-bottom: solid 6px black;
   border-right: solid 6px black;
 }
+
+#author{
+  position: absolute;
+  font-size: 18px;
+  bottom: 0px;
+  width: 250px;
+  font-family: 'Lment-v02', sans-serif;
+}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   body{
     background-color: white;
     padding: 0;
@@ -460,6 +468,15 @@ a:active{
     border-bottom: solid 6px black;
     border-right: solid 6px black;
   }
+
+  #author{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0px;
+    width: 250px;
+    font-family: 'Lment-v02', sans-serif;
+  }
+
   }
 
 @media only screen and (min-width: 768px) {
@@ -650,6 +667,14 @@ a:active{
     height: 80px;
     border-bottom: solid 6px black;
     border-right: solid 6px black;
+  }
+
+  #author{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0px;
+    width: 250px;
+    font-family: 'Lment-v02', sans-serif;
   }
   }
 
@@ -842,6 +867,14 @@ a:active{
     border-bottom: solid 6px black;
     border-right: solid 6px black;
   }
+
+  #author{
+    position: absolute;
+    font-size: 28px;
+    bottom: 0px;
+    width: 250px;
+    font-family: 'Lment-v02', sans-serif;
+  }
   }
 
 @media only screen and (min-width: 992px) {
@@ -1033,6 +1066,14 @@ a:active{
     border-bottom: solid 6px black;
     border-right: solid 6px black;
   }
+
+  #author{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0px;
+    width: 250px;
+    font-family: 'Lment-v02', sans-serif;
+  }
   }
 
 @media only screen and (min-width: 1200px) {
@@ -1223,5 +1264,13 @@ a:active{
     height: 80px;
     border-bottom: solid 6px black;
     border-right: solid 6px black;
+  }
+
+  #author{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0px;
+    width: 250px;
+    font-family: 'Lment-v02', sans-serif;
   }
   }
