@@ -554,9 +554,10 @@ main{
 }
 
 #t1{
-    font-size: 2.2vh;
+    font-size: 2.15vh;
     margin-left: 0.5vh;
     margin-top: 0.5vh;
+    width: 65vh;
 }
 
 #t2{
@@ -566,7 +567,7 @@ main{
 
 #t3{
     margin-left: 1.5vh;
-    font-size: 2.2vh;
+    font-size: 2.15vh;
 }
 
 #t4{
