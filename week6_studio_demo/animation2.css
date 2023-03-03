@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+
+#stars{
+    width: 60vw;
+    position: absolute;
+}
+
+.cls-1{
+    animation: change-color 5s infinite;
+}
+
+.cls-2{
+    animation: change-color2 5s infinite;
+}
+
+@keyframes change-color{
+    from{
+        stroke: #ff0;
+    }
+    to{
+        stroke: aqua;
+    }
+}
+
+
+@keyframes change-color2 {
+    from{
+        fill: #ff0;
+    }
+    to{
+        fill: aqua;
+    }
+}
