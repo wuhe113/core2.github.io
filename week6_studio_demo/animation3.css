@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(6, 6, 23);
+}
+
+#star1{
+    width: 10vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    animation: rotation 3s infinite linear, glow 2s ease-in-out infinite alternate, change-size 5s infinite alternate;
+}
+
+#star2{
+    width: 5vh;
+    margin-top: -10vh;
+    margin-left: 40vh;
+    animation: rotation 3s infinite linear, glow2 2s ease-in-out infinite alternate, change-size2 5s infinite alternate;
+}
+
+#star3{
+    width: 5vh;
+    margin-top: 30vh;
+    margin-left: 35vh;
+    animation: rotation 3s infinite linear;
+}
+
+#star4{
+    width: 5vh;
+    margin-top: -50vh;
+    margin-left: 20vh;
+    animation: rotation 3s infinite linear;
+}
+
+
+#star5{
+    width: 10vh;
+    margin-top: 5vh;
+    margin-left: 60vh;
+    animation: rotation 3s infinite linear, glow 2s ease-in-out infinite alternate, change-size3 5s infinite alternate;
+}
+
+#star6{
+    width: 5vh;
+    margin-top: -15vh;
+    margin-left: 70vh;
+    animation: rotation 3s infinite linear, translate 5s infinite alternate;
+}
+
+#star7{
+    width: 5vh;
+    margin-top: 20vh;
+    margin-left: 85vh;
+    animation: rotation 3s infinite linear, glow2 2s ease-in-out infinite alternate, change-size2 5s infinite alternate;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  @keyframes glow {
+    from {
+        filter:drop-shadow(0 0 20px #ffffff);
+        opacity: 0;
+    }
+    to {
+        filter:drop-shadow(0 0 20px #ffffff);
+        opacity: 1;
+    }
+    }
+
+    @keyframes glow2 {
+        from {
+            filter:drop-shadow(0 0 20px #ffffff);
+            opacity: 1;
+        }
+        to {
+            filter:drop-shadow(0 0 20px #ffffff);
+            opacity: 0;
+        }
+        }
+
+    @keyframes change-size{
+        from{
+            width: 10vh;
+        }
+        to{
+            width: 30vh;
+            margin-top: 60vh;
+        }
+    }
+
+    @keyframes change-size2{
+        from{
+            width: 5vh;
+        }
+        to{
+            width: 15vh;
+            margin-top: -50vh;
+        }
+    }
+
+    @keyframes change-size3{
+        from{
+            width: 10vh;
+        }
+        to{
+            width: 20vh;
+            margin-top: 40vh;
+        }
+    }
+
+    @keyframes translate{
+        from{
+            margin-top: -15vh;
+        }
+        to{
+            margin-top: -40vh;
+        }
+    }
+
