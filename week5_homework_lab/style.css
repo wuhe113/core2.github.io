@@ -1009,3 +1009,7 @@ marquee{
     font-weight: 400;
     color: darkgray;
 }
+
+/* .link:hover~section{
+    filter: blur(10px);
+} */
