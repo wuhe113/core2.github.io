@@ -1,0 +1,70 @@
+body{
+    background:linear-gradient(180deg, rgba(255,255,255,0) 5%, rgba(0,0,255,1) 25%);
+    background-color: white;
+}
+
+ul {
+	display: grid;
+	gap: 15vw;
+	margin-top: 30vw;
+}
+
+li {
+	display: grid;
+	gap: 5vw;
+    list-style-type: none;
+    margin: auto;
+}
+
+
+#headline{
+    margin-top: 10vw;
+    background: linear-gradient(180deg, blue 50%, rgba(0,29,255,0) 100%);
+    font-family: 'Carola', sans-serif;
+    font-size: 25vw;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    font-family: "sherborne-variable", sans-serif;
+    font-style: italic;
+    font-variation-settings: "opsz" 12, "wght" 250;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+
+}
+
+.location{
+    font-family: "sherborne-variable", sans-serif;
+    font-variation-settings: "opsz" 12, "wght" 250;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+
+img{
+    margin: auto;
+    width: 80vw;
+    /* box-shadow: white 0px 10px 50px; */
+}
+
+.cleaness{
+    font-family: "sherborne-variable", sans-serif;
+    font-variation-settings: "opsz" 12, "wght" 250;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+}
+
+.description{
+    margin: auto;
+    width: 80vw;
+    text-align: left;
+    font-family: "sherborne-variable",sans-serif;
+    font-variation-settings: 'wght' 500, 'opsz' 12;
+    font-size: 3vw;
+    color: white;
+}
