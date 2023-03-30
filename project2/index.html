@@ -2,15 +2,69 @@
     <head>
         <title>MPR</title>
         <link rel="stylesheet" href="assets/reset.css">
-        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="style.css">
         <link href="https://fonts.cdnfonts.com/css/carola" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.typekit.net/dxm6duh.css">
+        <!-- <link rel="stylesheet" href="https://use.typekit.net/dxm6duh.css">
+        <link href="https://fonts.cdnfonts.com/css/british-classical" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/breasto-display" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/champhin" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/british-classical" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://use.typekit.net/zxz1cyl.css">
+        <script defer src="index.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script defer src="assets/collection.js"></script>
     </head>
 
     <body>
-        <h1 id="headline">Manhattan Public Restroom</h1>
-        <ul id="collection"></ul>
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="MPR index revised.mp4" type="video/mp4">
+          </video>
+
+        <div>
+            <h1>Manhattan 
+            <br>Public
+            <br>Restroom</h1>
+
+            <div id="menu">
+                <p id="p1">[MENU]</p>
+                <div class="dropdown-content">
+                    <a href="index.html">+Home</a>
+                    <a href="uptown.html">+Uptown</a>
+                    <a href="midtown.html">+Midtown</a>
+                    <a href="downtown.html">+Downtown</a>
+                </div>
+            </div>
+
+            <div id="add">
+                <p><a href="content.html" id="p2">+</a></p>
+            </div>
+
+            <div id="About">
+                <p></p><a href="https://goo.gl/maps/2KDvnw6cq8Cpm3oN9" id="p3">[ABOUT]</a></p>
+            </div>
+
+            <div id="year">
+                <p id="p4">2023</p>
+            </div>
+        </div>
+
+        <!-- <section>
+            <div id="map">
+                            <?xml version="1.0" encoding="UTF-8"?>
+            <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 715 1564.85">
+            <defs>
+                <style>
+                .cls-1 {
+                    fill: #fff;
+                }
+                </style>
+            </defs>
+            <g id="Layer_1-2" data-name="Layer 1">
+                <path class="cls-1" d="M621,0l-30,18-29,73-41,83-36,59v81.85l-35,41.15v55.91s-86,117.09-114.5,170.59-55.5,93.5-61.5,117.5-18,27-18,27c0,0-23.65,18.42-29.32,44.21-5.68,25.79-20.68,58.79-20.68,58.79l-23,47-36,61v23.91s-32,41.09-47,56.09-23,38-23,38l-21,47v97.15s-24,19.85-21,134.85l-17,80v52.79L0,1518v46.85H50.21l67.79-55.85,126-21,24-14,20-80,22.5-67.38-25.5-67.62,33.12-94.15,81.88-111.85,83-118s20-24,26-44l-18-38,21-29,32.32-53.5,35.68-35.5,17-29s-23-103-35-112l-3-197,6-62,38-76,38-79v-29.85l13,7.85,28-26,15-28,18-30V26.88l-28-7.88-23,10-23-15-20-14Z"/>
+            </g>
+            </svg>
+            </div>
+        </section> -->
+
+        <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12094.34814798302!2d-73.99474484999999!3d40.7271066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1680170107233!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </body>
 </html>

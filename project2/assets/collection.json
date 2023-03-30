@@ -1,98 +1,136 @@
 [
     {
         "title":"Bed Bath & Beyond Restroom",
-        "img":"restroom/bbb1.jpg",
+        "img":"restroom/bbb1.jpg", 
+        "img2":"restroom/bbb2.jpg",
+        "img3":"restroom/bbb3.jpg",
         "location":"1932 Broadway, New York, NY 10023",
         "cleaness":"3/5",
-        "description":"Bed Bath & Beyond in uptown Manhattan has only a small clientele. There are restrooms on the lower first floor and the lower second floor of the store, and they are separate restrooms for men and women. Recommended for people who are shopping near uptown and don't want to wait in line."
+        "description":"Bed Bath & Beyond in uptown Manhattan has only a small clientele. There are restrooms on the lower first floor and the lower second floor of the store, and they are separate restrooms for men and women. Recommended for people who are shopping near uptown and don't want to wait in line.",
+        "neighborhood": "uptown"
     },
+
+
 
     {
         "title":"The Shops at Columbus Circle Restroom",
         "img":"restroom/shops1.jpg",
+        "img2":"restroom/shops2.jpg",
+        "img3":"restroom/shops3.jpg",
         "location":"10 Columbus Cir, New York, NY 10019",
         "cleaness":"4.5/5",
-        "description":"The Shops at Columbus Circle is one of the most iconic department stores located in uptown Manhattan, it attracts more than 16 million visitors annually. There are separate restrooms for men and women from the second floor of the mall, and they are relatively clean, people can take a stroll through the stores or find a place to rest while waiting for the restroom. Recommended for people who are shopping near Uptown and don't want to wait in line."
+        "description":"The Shops at Columbus Circle is one of the most iconic department stores located in uptown Manhattan, it attracts more than 16 million visitors annually. There are separate restrooms for men and women from the second floor of the mall, and they are relatively clean, people can take a stroll through the stores or find a place to rest while waiting for the restroom. Recommended for people who are shopping near Uptown and don't want to wait in line.",
+        "neighborhood": "uptown"
     },
 
     {
         "title":"Nordstrom Restroom",
         "img":"restroom/nordstrom1.jpg",
+        "img2":"restroom/nordstrom2.jpg",
+        "img3":"restroom/nordstrom3.jpg",
         "location":"225 W 57th St, New York, NY 10019",
         "cleaness":"5/5",
-        "description":"The official description from Nordstrom states - Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids. Since 1901, we've been committed to providing our customers with the best possible service-and to improving it every day. Not only does the department store itself give a sense of sophistication, but the restrooms configured in the mall are also very clean and large single-room restrooms. Although they are unisex, they provide a private space for everyone to rest. All floors are equipped with restroom except for the first and fourth floors. Recommended for people who are shopping near Uptown and who want to have a separate resting space"
+        "description":"The official description from Nordstrom states - Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids. Since 1901, we've been committed to providing our customers with the best possible service-and to improving it every day. Not only does the department store itself give a sense of sophistication, but the restrooms configured in the mall are also very clean and large single-room restrooms. Although they are unisex, they provide a private space for everyone to rest. All floors are equipped with restroom except for the first and fourth floors. Recommended for people who are shopping near Uptown and who want to have a separate resting space",
+        "neighborhood": "uptown"
 
     },
 
     {
         "title":"M&M'S World New York Restroom",
         "img":"restroom/mm1.jpg",
+        "img2":"restroom/mm2.jpg",
+        "img3":"restroom/empty.png",
         "location":"1600 Broadway, New York, NY 10019",
         "cleaness":"2.5/5",
-        "description":"Located in midtown Manhattan, the official M&Ms store in the middle of Times Square. There are separate restrooms for men and women on the third floor of the store, and there is basically a constant queue. Only recommended for people who want to visit the store."
+        "description":"Located in midtown Manhattan, the official M&Ms store in the middle of Times Square. There are separate restrooms for men and women on the third floor of the store, and there is basically a constant queue. Only recommended for people who want to visit the store.",
+        "neighborhood": "midtown"
     },
 
     {
         "title":"42 St - Port Authority Bus Terminal",
         "img":"restroom/bus1.jpg",
+        "img2":"restroom/bus2.jpg",
+        "img3":"restroom/empty.png",
         "location":"625 8th Ave, New York, NY 10018",
         "cleaness":"3/5",
-        "description":"As a bus terminal with a large area, the restrooms are not in a particularly prominent place. Following the signs will lead people to the restrooms at the far end of the first floor. The entrance and access to the restrooms are very wide, it is clear that the bus terminal is a large transportation hub and the restrooms are designed with everyone in mind, including people with disabilities or people who carry multiple heavy luggages. In addition, the restrooms are separate for men and women. Recommended for people who are in a hurry to use the restroom before getting out of the subway station or getting off the bus."
+        "description":"As a bus terminal with a large area, the restrooms are not in a particularly prominent place. Following the signs will lead people to the restrooms at the far end of the first floor. The entrance and access to the restrooms are very wide, it is clear that the bus terminal is a large transportation hub and the restrooms are designed with everyone in mind, including people with disabilities or people who carry multiple heavy luggages. In addition, the restrooms are separate for men and women. Recommended for people who are in a hurry to use the restroom before getting out of the subway station or getting off the bus.",
+        "neighborhood": "midtown"
     },
 
     {
         "title":"Bryant Park Bathroom",
         "img":"restroom/bryant.jpg",
+        "img2":"restroom/bryant2.jpg",
+        "img3":"restroom/empty.png",
         "location":"W 42nd St, New York, NY 10018",
         "cleaness":"5/5",
-        "description":"Bryant Park as one of Manhattan's landmark parks, has always maintained an elegant park image to the public. The same is true of its restroom. This is probably the most decorative restroom in the collection. It is decorated in a classic style and is surrounded by flowers and music. Although this is a public restroom in a park, the toilet seat is even covered with removable plastic that can be changed. The restrooms are separate for men and women, but queuing is inevitable. Recommended for people around Bryant Park and don't mind waiting in line."
+        "description":"Bryant Park as one of Manhattan's landmark parks, has always maintained an elegant park image to the public. The same is true of its restroom. This is probably the most decorative restroom in the collection. It is decorated in a classic style and is surrounded by flowers and music. Although this is a public restroom in a park, the toilet seat is even covered with removable plastic that can be changed. The restrooms are separate for men and women, but queuing is inevitable. Recommended for people around Bryant Park and don't mind waiting in line.",
+        "neighborhood": "midtown"
+    },
+
+    {
+        "title":"Whole Foods Market Restroom",
+        "img":"restroom/food1.jpg",
+        "img2":"restroom/food2.jpg",
+        "img3":"restroom/empty.png",
+        "location":"63 Madison Ave, New York, NY 10016",
+        "cleaness":"5/5",
+        "description":"This Whole Foods Market on Madison Avenue in midtown is a relatively new opening in Manhattan. It is not particularly crowded, so there is no line for the restroom and it is clean. The restrooms are separate for men and women. Recommended for people who are shopping near Madison Avenue and don't want to wait in line.",
+        "neighborhood": "midtown"
     },
 
     {
         "title":"Barnes & Noble Restroom",
         "img":"restroom/book1.jpg",
+        "img2":"restroom/book2.jpg",
+        "img3":"restroom/book3.jpg",
         "location":"33 E 17th St, New York, NY 10003",
         "cleaness":"3.5/5",
-        "description":"Barnes & Noble, located in Union Square, is a large bookstore with four floors. The restrooms are on the third floor, and are separate for men and women. Recommended for people around Union Square."
+        "description":"Barnes & Noble, located in Union Square, is a large bookstore with four floors. The restrooms are on the third floor, and are separate for men and women. Recommended for people around Union Square.",
+        "neighborhood": "downtown"
     },
 
     {
         "title":"Union Square Park Public Restroom",
         "img":"restroom/union1.jpg",
+        "img2":"restroom/union2.jpg",
+        "img3":"restroom/empty.png",
         "location":"201 Park Ave S, New York, NY 10003",
         "cleaness":"2/5",
-        "description":""
+        "description":"The public restrooms in Union Square Park are often infested with homeless people. It may not be a safe place at night. The restrooms are separate for men and women and there is no queue. It is not recommended to use the restroom here after afternoon.",
+        "neighborhood": "downtown"
     },
 
     {
         "title":"Corporal John A. Seravalli Playground Public Bathroom",
         "img":"restroom/playground1.jpg",
+        "img2":"restroom/playground2.jpg",
+        "img3":"restroom/empty.png",
         "location":"17 Horatio St, New York, NY 10014",
         "cleaness":"4/5",
-        "description":"Corporal John A. Seravalli Playground is located in the west village of lower Midtown. It is a triangular shaped area where parents can always be seen sitting on a bench watching their children play on the playground. The toilets are designed as a small separate house and are separate for men and women. There is no queue and the restrooms are clean."
-    },
-
-    {
-        "title":"Washington Square Public Bathroom",
-        "img":"restroom/washington.jpg",
-        "location":"49-57 Washington Square S, New York, NY 10012",
-        "cleaness":"/",
-        "description":"/"
+        "description":"Corporal John A. Seravalli Playground is located in the west village of lower Midtown. It is a triangular shaped area where parents can always be seen sitting on a bench watching their children play on the playground. The toilets are designed as a small separate house and are separate for men and women. There is no queue and the restrooms are clean.",
+        "neighborhood": "downtown"
     },
 
     {
         "title":"Bloomingdale's Restrooms",
         "img":"restroom/blooming1.jpg",
+        "img2":"restroom/blooming2.jpg",
+        "img3":"restroom/blooming3.jpg",
         "location":"504 Broadway, New York, NY 10012",
         "cleaness":"3.5/5",
-        "description":"Bloomingdale's, the iconic department store in Manhattan's SOHO, attracts people from all over the world. In this busy neighborhood of SOHO, the best way to use the restroom is to go to the restroom inside Bloomingdale's. The mall has restrooms on the lower level, third and fifth floors, with the fifth floor having the least line of people. Recommended for people shopping in SOHO."
+        "description":"Bloomingdale's, the iconic department store in Manhattan's SOHO, attracts people from all over the world. In this busy neighborhood of SOHO, the best way to use the restroom is to go to the restroom inside Bloomingdale's. The mall has restrooms on the lower level, third and fifth floors, with the fifth floor having the least line of people. Recommended for people shopping in SOHO.",
+        "neighborhood": "downtown"
     },
 
     {
         "title":"Sara D. Roosevelt Park Public Restroom",
         "img":"restroom/roosevelt1.jpg",
+        "img2":"restroom/roosevelt2.jpg",
+        "img3":"restroom/empty.png",
         "location":"Sara D. Roosevelt Park Chrystie St. &, Forsyth St, New York, NY 10002",
         "cleaness":"4/5",
-        "description":"Sara D. Roosevelt Park in lower Manhattan is located in the middle of a crowded intersection near Chinatown, but the park itself is not particularly crowded. The restrooms are separate for men and women, and there is no line. Recommended for people around lower Manhattan and don't want to wait in line."
+        "description":"Sara D. Roosevelt Park in lower Manhattan is located in the middle of a crowded intersection near Chinatown, but the park itself is not particularly crowded. The restrooms are separate for men and women, and there is no line. Recommended for people around lower Manhattan and don't want to wait in line.",
+        "neighborhood": "downtown"
     }
 ]
