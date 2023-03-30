@@ -4,7 +4,8 @@
         "img":"restroom/bbb1.jpg",
         "location":"1932 Broadway, New York, NY 10023",
         "cleaness":"3/5",
-        "description":"Bed Bath & Beyond in uptown Manhattan has only a small clientele. There are restrooms on the lower first floor and the lower second floor of the store, and they are separate restrooms for men and women. Recommended for people who are shopping near uptown and don't want to wait in line."
+        "description":"Bed Bath & Beyond in uptown Manhattan has only a small clientele. There are restrooms on the lower first floor and the lower second floor of the store, and they are separate restrooms for men and women. Recommended for people who are shopping near uptown and don't want to wait in line.",
+        "neighborhood": "midtown"
     },
 
     {
@@ -12,7 +13,8 @@
         "img":"restroom/shops1.jpg",
         "location":"10 Columbus Cir, New York, NY 10019",
         "cleaness":"4.5/5",
-        "description":"The Shops at Columbus Circle is one of the most iconic department stores located in uptown Manhattan, it attracts more than 16 million visitors annually. There are separate restrooms for men and women from the second floor of the mall, and they are relatively clean, people can take a stroll through the stores or find a place to rest while waiting for the restroom. Recommended for people who are shopping near Uptown and don't want to wait in line."
+        "description":"The Shops at Columbus Circle is one of the most iconic department stores located in uptown Manhattan, it attracts more than 16 million visitors annually. There are separate restrooms for men and women from the second floor of the mall, and they are relatively clean, people can take a stroll through the stores or find a place to rest while waiting for the restroom. Recommended for people who are shopping near Uptown and don't want to wait in line.",
+        "neighborhood": "downtown"
     },
 
     {
@@ -93,6 +95,6 @@
         "img":"restroom/roosevelt1.jpg",
         "location":"Sara D. Roosevelt Park Chrystie St. &, Forsyth St, New York, NY 10002",
         "cleaness":"4/5",
-        "description":"Sara D. Roosevelt Park in lower Manhattan is located in the middle of a crowded intersection near Chinatown, but the park itself is not particularly crowded. The restrooms are separate for men and women, and there is no line. Recommended for people around lower Manhattan and don't want to wait in line."
+        "description":"Sara D. Roosevelt Park in downtown Manhattan is located in the middle of a crowded intersection near Chinatown, but the park itself is not particularly crowded. The restrooms are separate for men and women, and there is no line. Recommended for people around lower Manhattan and don't want to wait in line."
     }
 ]

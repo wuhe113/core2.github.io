@@ -1,5 +1,7 @@
 const renderItems = (collection) => {
-    const collectionList = document.querySelector('#collection')
+    // const collectionList = document.querySelector('#collection')
+    const midtownList = document.querySelector('#midtown')
+    const downtownList = document.querySelector('#downtown')
 
     collection.forEach(item => {
         const listItem = document.createElement('li')
@@ -16,7 +18,12 @@ const renderItems = (collection) => {
         
         listItem.insertAdjacentHTML('beforeend', itemDetails)
         
-        collectionList.appendChild(listItem)
+        if (item.neighborhood == "midtown") {
+            midtownList.appendChild(listItem)
+        }
+        if (item.neighborhood == "downtown") {
+            downtownList.appendChild(listItem)
+        }
     })
 }
 
