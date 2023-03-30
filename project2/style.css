@@ -216,6 +216,7 @@ h1{
     }
 
     #p3{
+        display: inline-block;
         margin-top: 50vw;
     }
 
