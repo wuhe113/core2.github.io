@@ -1,0 +1,27 @@
+:root{
+    --spacing: 5vw; 
+    --font-size: 2vw;
+    --width:5vw;
+ }
+
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+
+@media only screen and (min-width: 600px){
+    header{
+        padding: var(--spacing);
+        background-color: coral;
+    }
+
+    aside{
+        background-color: lightcoral;
+    }
+
+    footer{
+        background-color: lightpink;
+    }
+    
+}
