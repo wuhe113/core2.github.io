@@ -1,4 +1,5 @@
 const dataUrl = 'https://data.cityofnewyork.us/resource/vfnx-vebw.json'
+const graphBar = document.querySelector('#graph')
 
 const parseData = (squirrels) => {
     let colorGray = 0
@@ -15,10 +16,12 @@ const parseData = (squirrels) => {
         if (squirrel.primary_fur_color == 'Gray') colorGray++
 
     })
-
+ 
     console.log('Gray:' + colorGray)
 
     // console.log(data)
+
+    graph.style.setProperty('--color--gray', colorGray)
 }
 
 fetch(dataUrl + '?$limit=15')
