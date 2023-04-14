@@ -26,7 +26,7 @@ header{
     padding: var(--spacing);
     width: calc(8 * var(--width));
     height: var(--width);
-    margin-top: calc(-1.5 * var(--spacing));
+    margin-top: calc(-1 * var(--spacing));
     grid-area: header;
 }
 
@@ -104,10 +104,6 @@ footer{
     grid-area: footer;
 }
 
-footer:hover{
-    color: rgb(37, 37, 37);
-    background-color: coral;
-}
 
 a:link{
     color: coral;
@@ -127,14 +123,85 @@ a:active{
 
 @media (min-width: 600px){
     :root{
-        --spacing: 5vw; 
-        --font-size: 2vw;
-        --width:10vw;
+        --spacing: 3vw; 
+        --font-size: 1.5vw;
+        --width:5vw;
      }
 
-    
+    body{
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 100px 1fr min-content;
+        grid-template-areas: 
+        "header aside"
+        "main main"
+        "footer footer";
+    }
+
+    h1{
+        border: 4px solid coral;
+    }
+
+    aside{
+        font-size: calc(1.5 * var(--font-size));
+    }
+
+    #poster-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #colorBar{
+        width: calc(4 * var(--width));
+        height: calc(1 * var(--width));
+        margin-left: calc(13 * var(--spacing));
+        margin-top: calc(1.2 * var(--spacing));
+    }
 
 
 }
 
+@media (min-width: 1200px){
+    :root{
+        --spacing: 3vw; 
+        --font-size: 1.5vw;
+        --width:5vw;
+     }
+
+    body{
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 200px 1fr min-content;
+        grid-template-areas: 
+        "header aside"
+        "main main"
+        "footer footer";
+    }
+
+
+     h1{
+        border: 6px solid coral;
+    }
+
+    aside{
+        font-size: calc(1.5 * var(--font-size));
+    }
+
+    #poster-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: calc(3 * var(--spacing));
+        align-items: center;
+        justify-items: center;
+        margin-top: calc(2 * var(--spacing));
+    }
+
+    img{
+        width: calc(2.5 * var(--width));
+
+    }
+
+    footer{
+        border: 4px solid coral;
+    }
+
+}
 
