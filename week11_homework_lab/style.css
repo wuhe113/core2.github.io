@@ -126,6 +126,7 @@ a:active{
         --spacing: 3vw; 
         --font-size: 1.5vw;
         --width:5vw;
+        --columns:3;
      }
 
     body{
@@ -147,7 +148,7 @@ a:active{
 
     #poster-list{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(var(--columns), 1fr);
     }
 
     #colorBar{
@@ -165,6 +166,7 @@ a:active{
         --spacing: 3vw; 
         --font-size: 1.5vw;
         --width:5vw;
+        --columns:6;
      }
 
     body{
@@ -187,11 +189,11 @@ a:active{
 
     #poster-list{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(var(--columns), 1fr);
         row-gap: calc(3 * var(--spacing));
         align-items: center;
         justify-items: center;
-        margin-top: calc(2 * var(--spacing));
+        margin-top: var(--spacing);
     }
 
     img{
