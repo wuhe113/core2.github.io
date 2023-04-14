@@ -1,85 +1,140 @@
 :root{
     --spacing: 5vw; 
     --font-size: 2vw;
-    --width:5vw;
+    --width:10vw;
  }
 
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px min-content 1fr min-content;
+    min-height: 100vh;
+    background-color: rgb(37, 37, 37);
+    font-family: "owners", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-template-areas: 
+    "header"
+    "aside"
+    "main"
+    "footer";
+}
+
+header{
+    padding: var(--spacing);
+    width: calc(8 * var(--width));
+    height: var(--width);
+    margin-top: calc(-1.5 * var(--spacing));
+    grid-area: header;
+}
+
+h1{
+    font-family: "owners", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: calc(5 * var(--width));
+    font-size: calc(3 * var(--font-size));
+    color: coral;
+    border: 2px solid coral;
+    backdrop-filter: blur(4px);
+    position: fixed;
+
+}
+
+#colorBar{
+    background:linear-gradient(90deg, rgba(255,124,64,1) 0%, rgba(255,67,84,1) 3%, rgba(255,253,73,1) 6%, rgba(255,158,79,1) 9%, rgba(57,227,255,1) 13%, rgba(45,165,255,1) 16%, rgba(0,114,244,1) 19%, rgba(0,36,255,1) 22%, rgba(82,180,226,1) 26%, rgba(160,206,227,1) 29%, rgba(154,168,175,1) 32%, rgba(178,175,158,1) 35%, rgba(192,173,118,1) 38%, rgba(221,169,37,1) 41%, rgba(162,179,133,1) 44%, rgba(118,156,98,1) 48%, rgba(130,181,71,1) 51%, rgba(49,204,62,1) 55%, rgba(88,255,57,1) 58%, rgba(227,87,154,1) 61%, rgba(140,140,140,1) 64%, rgba(172,172,172,1) 68%, rgba(209,209,209,1) 71%, rgba(95,213,173,1) 73%, rgba(255,255,255,0) 100%, rgba(210,210,255,1) 100%);
+    width: calc(3.5 * var(--width));
+    height: calc(0.8 * var(--width));
+    margin-left: calc(11 * var(--spacing));
+    margin-top: calc(0.9 * var(--spacing));
+    position: fixed;
+}
+
+aside{
+    width: calc(8 * var(--width));
+    font-size: calc(2 * var(--font-size));
+    color: rgb(119, 119, 119);
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    text-align: center;
+    grid-area: aside;
+}
+
+
+main{
+    grid-area: main;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+img{
+    width: calc(3 * var(--width));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#poster-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(2 * var(--spacing));
+    align-items: center;
+    justify-items: center;
+    margin-top: calc(1 * var(--spacing));
+}
+
+#poster-list img:hover{
+    width: calc(4 * var(--width));
+}
+
+
+footer{
+    width: calc(5 * var(--width));
+    font-size: calc(2 * var(--font-size));
+    color: coral;
+    border: 2px solid coral;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    text-align: center;
+    grid-area: footer;
+}
+
+footer:hover{
+    color: rgb(37, 37, 37);
+    background-color: coral;
+}
+
+a:link{
+    color: coral;
+    text-decoration: none;
+}
+
+a:visited{
+    color: coral;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
 
 
 @media (min-width: 600px){
-}
-
-    body{
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px min-content 1fr min-content;
-        min-height: 100vh;
-        background-color: rgb(37, 37, 37);
-    }
-
-    header{
-        padding: var(--spacing);
-        width: 80vw;
-        margin-top: calc(-1.5 * var(--spacing));
-    }
-
-    h1{
-        width: 50vw;
-        font-family: "owners", sans-serif;
-        font-weight: 400;
-        font-size: calc(3 * var(--font-size));
-        font-style: normal;
-        color: coral;
-        border: 2px solid coral;
-        backdrop-filter: blur(4px);
-        position: fixed;
-
-    }
-
-    #colorBar{
-        background:linear-gradient(90deg, rgba(255,124,64,1) 0%, rgba(255,67,84,1) 3%, rgba(255,253,73,1) 6%, rgba(255,158,79,1) 9%, rgba(57,227,255,1) 13%, rgba(45,165,255,1) 16%, rgba(0,114,244,1) 19%, rgba(0,36,255,1) 22%, rgba(82,180,226,1) 26%, rgba(160,206,227,1) 29%, rgba(154,168,175,1) 32%, rgba(178,175,158,1) 35%, rgba(192,173,118,1) 38%, rgba(221,169,37,1) 41%, rgba(162,179,133,1) 44%, rgba(118,156,98,1) 48%, rgba(130,181,71,1) 51%, rgba(49,204,62,1) 55%, rgba(88,255,57,1) 58%, rgba(227,87,154,1) 61%, rgba(140,140,140,1) 64%, rgba(172,172,172,1) 68%, rgba(209,209,209,1) 71%, rgba(95,213,173,1) 73%, rgba(255,255,255,0) 100%, rgba(210,210,255,1) 100%);
-        width: 35vw;
-        height: 8vw;
-        margin-left: calc(11 * var(--spacing));
-        position: fixed;
-    }
-
-
-    ul{
-        list-style-type: none;
-        padding: 0;
-    }
-
-    img{
-        width: 30vw;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-
-    #poster-list{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 10vw;
-        align-items: center;
-        justify-items: center;
-        margin-top: calc(-6 * var(--spacing));
-    }
-
-    #poster-list img:hover{
-        width: 40vw;
-    }
-
-    aside{
-        background-color: lightcoral;
-    }
-
-    footer{
-        background-color: lightpink;
-    }
+    :root{
+        --spacing: 5vw; 
+        --font-size: 2vw;
+        --width:10vw;
+     }
 
     
 
 
+}
 
 
