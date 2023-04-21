@@ -14,10 +14,13 @@ const parseData = (squirrels) => {
         // else console.log("This is an unknown squirrel color")
 
         if (squirrel.primary_fur_color == 'Gray') colorGray++
+        else if (squirrel.primary_fur_color == 'Cinnamon') colorCinnamon++
+        else colorUnknown++
 
     })
  
     console.log('Gray:' + colorGray)
+    console.log('Cinnamon:' + colorCinnamon)
 
     // console.log(data)
 
