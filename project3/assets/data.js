@@ -1,5 +1,5 @@
 const dataUrl = 'https://data.cityofnewyork.us/resource/npnk-wrj8.json'
-const graphBar = document.querySelector('#graph')
+const graphBar = document.querySelector('#providerGraph')
 
 const parseData = (wifix) => {
     let pvdAlticeusa = 0
@@ -28,11 +28,11 @@ const parseData = (wifix) => {
     console.log('Fiberless:' + pvdFiberless)
 
 
-    graph.style.setProperty('--color--alt', pvdAlticeusa)
-    graph.style.setProperty('--color--spec', pvdSpectrum)
-    graph.style.setProperty('--color--att', pvdAtt)
-    graph.style.setProperty('--color--partner', pvdPartner)
-    graph.style.setProperty('--color--fiber', pvdFiberless)
+    providerGraph.style.setProperty('--alt', pvdAlticeusa)
+    providerGraph.style.setProperty('--spec', pvdSpectrum)
+    providerGraph.style.setProperty('--att', pvdAtt)
+    providerGraph.style.setProperty('--partner', pvdPartner)
+    providerGraph.style.setProperty('--fiber', pvdFiberless)
 }
 
 fetch(dataUrl)

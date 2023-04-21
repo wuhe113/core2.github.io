@@ -25,7 +25,8 @@ ul{
     padding: 0;
 }
 
-#provider-graph{
+#providerGraph{
+    --total--provider: calc(var(--alt) + var(--spec) + var(--att) + var(--partner) + var(--fiber));
     display: flex;
     margin-top: calc(2 * var(--spacing));
     background-color: rgb(59, 59, 59);
@@ -35,32 +36,38 @@ ul{
     font-weight: 400;
     font-style: normal;
     font-size: var(--font-size);
-    color:rgb(59, 59, 59);
+    color: white;
     box-shadow: 0px 0px 20px 0px rgba(0,255,115,0.3);
     overflow: hidden;
 }
 
-#provider-graph li{
+#providerGraph li{
     padding: calc(var(--spacing) / 2);
     align-items:center;
+    text-align: center;
 }
 
 #alt{
     background-color: rgb(215, 215, 215);
+    width:calc(var(--alt) / var(--total--provider) * 100%);
 }
 
 #spec{
     background-color: rgb(168, 168, 168);
+    width:calc(var(--spec) / var(--total--provider) * 100%);
 }
 
 #att{
     background-color: rgb(131, 131, 131);
+    width:calc(var(--att) / var(--total--provider) * 100%);
 }
 
 #partner{
     background-color: rgb(102, 102, 102);
+    width:calc(var(--partner) / var(--total--provider) * 100%);
 }
 
 #fiber{
     background-color: rgb(79, 79, 79);
+    width:calc(var(--fiber) / var(--total--provider) * 100%);
 }
