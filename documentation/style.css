@@ -1,0 +1,152 @@
+:root{
+    --spacing: 5vw; 
+    --font-size: 2vw;
+    --width:10vw;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vw min-content 1fr min-content;
+    min-height: 100vh;
+    background-color: white;
+}
+
+hr{
+    margin-top: calc(3 * var(--spacing));
+    height: 1px;
+    background-color: black;
+}
+
+header{
+    background-color: blue;
+}
+
+h1{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    font-family: 'Carola', sans-serif;
+    font-size: calc(6 * var(--font-size));
+    color: white;
+}
+
+#collection{
+    display: inline-flex;
+    margin-top: calc(-7 * var(--spacing));
+    margin-left: calc(10 * var(--spacing));
+    font-family: 'Mountella Trial', sans-serif;
+    font-weight: 200;
+    font-size: var(--font-size);
+    width: calc(5 * var(--width));   
+    color: white;                                                                      
+}
+
+.index{
+    margin-top: calc(3 * var(--spacing));
+}
+
+video{
+    display: block;
+    margin-top: calc(3 * var(--spacing));
+    width: calc(8 * var(--width));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process{
+    font-family: 'Satoshi', sans-serif;
+    font-size: var(--font-size);
+    color: blue;
+}
+
+.typeface{
+    margin-top: calc(3 * var(--spacing));
+    display: block;
+    height: 100vw;
+    background-color: blue;
+    color: white;
+}
+
+
+.typeface img{
+    width: calc(7 * var(--width));
+    display: block;
+    margin: auto;
+}
+
+#area{
+    margin-top: calc(-2 * var(--spacing));
+}
+
+#type{
+    display: block;
+    margin-top: calc(2 * var(--spacing));
+    text-align: center;
+    font-family: 'Mountella Trial', sans-serif;
+    font-weight: 200;
+    font-size: calc(1.5 * var(--font-size));
+}
+
+#design0{
+    display: inline-block;
+    font-weight: 700;
+    margin-left: calc(12 * var(--spacing));
+    margin-top: calc(-15 * var(--spacing));
+
+}
+
+.sketch{
+    margin-left: var(--spacing);
+    margin-top: calc(3 * var(--spacing));
+    width: calc(5 * var(--width));
+}
+
+#s1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#s2{
+    margin-top: calc(-3 * var(--spacing));
+    margin-left: calc(3 * var(--spacing));
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#s3{
+    margin-top: calc(-2 * var(--spacing));
+    margin-left: calc(6 * var(--spacing));
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#design1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(3 * var(--spacing));
+    width: calc(6 * var(--width));
+    font-weight: 500;
+}
+
+.editorial{
+    margin-top: calc(3 * var(--spacing));
+    width: calc(6 * var(--width));
+}
+
+#screen1{
+    margin-left: calc(-4 * var(--spacing));
+    overflow: hidden;
+}
+
+#screen2{
+    margin-top: calc(-18.2 * var(--spacing));
+    margin-left: calc(8 * var(--spacing));
+}
+
+#screen3{
+    margin-left: calc(8 * var(--spacing));
+}
+
+#screen4{
+    margin-left: calc(8 * var(--spacing));
+}
+
