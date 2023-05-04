@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 541.45">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #00ff73;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #00ff73;
+      }
+
+      .cls-2 {
+        fill: #365b40;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-3 {
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-2" x="5" y="134.45" width="285" height="402"/>
+    <circle class="cls-2" cx="147.5" cy="407.95" r="100.5"/>
+    <circle class="cls-5" cx="98" cy="363.45" r="9"/>
+    <circle class="cls-5" cx="147" cy="363.45" r="9"/>
+    <circle class="cls-5" cx="195" cy="363.45" r="9"/>
+    <circle class="cls-5" cx="72" cy="402.45" r="9"/>
+    <circle class="cls-5" cx="123" cy="402.45" r="9"/>
+    <circle class="cls-5" cx="174" cy="402.45" r="9"/>
+    <circle class="cls-5" cx="221" cy="402.45" r="9"/>
+    <circle class="cls-5" cx="98" cy="443.45" r="9"/>
+    <circle class="cls-5" cx="147" cy="443.45" r="9"/>
+    <circle class="cls-5" cx="195" cy="443.45" r="9"/>
+    <circle class="cls-5" cx="123" cy="479.45" r="9"/>
+    <circle class="cls-5" cx="174" cy="479.45" r="9"/>
+    <circle class="cls-5" cx="123" cy="334.45" r="9"/>
+    <circle class="cls-5" cx="174" cy="334.45" r="9"/>
+    <rect class="cls-2" x="47" y="164.45" width="201" height="86"/>
+    <line class="cls-1" x1="114.5" y1="166.45" x2="114.5" y2="247.45"/>
+    <line class="cls-1" x1="81" y1="164.45" x2="81" y2="250.45"/>
+    <line class="cls-1" x1="147.5" y1="166.42" x2="147.5" y2="252.47"/>
+    <line class="cls-1" x1="178.04" y1="166.43" x2="178.04" y2="252.49"/>
+    <line class="cls-1" x1="209.04" y1="166.43" x2="209.04" y2="252.49"/>
+    <line class="cls-1" x1="48" y1="180.95" x2="249" y2="180.95"/>
+    <line class="cls-1" x1="47" y1="194.95" x2="248" y2="194.95"/>
+    <line class="cls-1" x1="43" y1="208.95" x2="244" y2="208.95"/>
+    <line class="cls-1" x1="47" y1="220.95" x2="248" y2="220.95"/>
+    <line class="cls-1" x1="48" y1="233.95" x2="249" y2="233.95"/>
+    <rect class="cls-2" x="82" y="270.45" width="149" height="20"/>
+    <rect class="cls-4" x="252" y="310.45" width="17" height="48"/>
+    <line class="cls-3" x1="113.5" y1="135.38" x2="24.5" y2="1.38"/>
+    <line class="cls-3" x1="183.98" y1="135.38" x2="272.98" y2="1.38"/>
+    <circle class="cls-4" cx="260.5" cy="280.95" r="12.5"/>
+    <rect class="cls-2" x="23" y="268.45" width="40" height="51"/>
+    <line class="cls-4" x1="43" y1="270.45" x2="43" y2="319.45"/>
+  </g>
+</svg>

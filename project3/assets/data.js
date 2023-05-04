@@ -1,6 +1,18 @@
 const dataUrl = 'https://data.cityofnewyork.us/resource/npnk-wrj8.json'
 const graphBar = document.querySelector('#providerGraph')
 
+const liElement = document.querySelector('li');
+const textboxElement = liElement.querySelector('.providerName');
+
+liElement.addEventListener('mouseenter', () => {
+   textboxElement.style.display = 'block';
+});
+
+liElement.addEventListener('mouseleave', () => {
+   textboxElement.style.display = 'none';
+});
+
+
 const parseData = (wifix) => {
     let pvdAlticeusa = 0
     let pvdSpectrum = 0
