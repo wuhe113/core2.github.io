@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(26, 26, 26);
 }
 
 h1{
@@ -62,7 +62,7 @@ marquee{
     border-right: .15em solid orange;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .15em;
+    /* letter-spacing: .15em; */
     animation:
       typing 3.5s steps(30, end),
       blink-caret .75s step-end infinite;
@@ -185,6 +185,120 @@ li:hover .providerName{
 }
 
 #Layer_2{
-    width: calc(4 * var(--spacing));
+    width: calc(6 * var(--spacing));
+    margin-top: var(--spacing);
+    margin-left: var(--spacing);
 }
 
+#loading-bar{
+    display: flex;
+    margin-top: calc(-9 * var(--spacing));
+    margin-left: calc(3 * var(--spacing));
+}
+
+#loading-bar-left{
+    fill:rgb(0, 255, 115);
+    animation: loading-bar-morph 1s linear .1s infinite;
+    transform-origin: center;
+}
+
+#loading-bar-middle{
+    fill:rgb(0, 255, 115);
+    animation: loading-bar-morph 1s linear .2s infinite;
+    transform-origin: center;
+}
+
+#loading-bar-right{
+    fill:rgb(0, 255, 115);
+    animation: loading-bar-morph 1s linear .4s infinite;
+    transform-origin: center;
+}
+
+
+@keyframes loading-bar-morph{
+  0%
+    {transform: scaleY(1)}
+  25%
+    {transform: scaleY(0.3)}
+  50%
+    {transform: scaleY(0.7)}
+  75%
+    {transform: scaleY(0.15)}
+}
+
+#circleMap{
+    width: calc(18 * var(--spacing));
+    margin-top: calc(-6 * var(--spacing));
+    margin-left: calc(4 * var(--spacing));
+}
+
+.mapSpots{
+    display: flex;
+    margin-top: calc(-13 * var(--spacing));
+    margin-left: calc(8 * var(--spacing));
+}
+
+#spot1{
+    /* filter: drop-shadow(0 0 20px #00ff73); */
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+
+#spot3{
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+
+#spot5{
+    animation: glow3 1s ease-in-out infinite alternate;
+}
+
+#spot1:hover{
+    fill: orange;
+}
+
+#spot3:hover{
+    fill: orange;
+}
+
+#spot5:hover{
+    fill: orange;
+}
+
+
+@keyframes glow1{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+
+}
+
+@keyframes glow2{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes glow3{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+
+}
