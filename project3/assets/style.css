@@ -880,7 +880,7 @@ animation: move3 1s ease-in-out infinite alternate;
     }
 
     h1{
-        border: #00ff73 solid 10px;
+        border: #00ff73 solid 8px;
     }
 
     #introduction{
@@ -915,7 +915,7 @@ animation: move3 1s ease-in-out infinite alternate;
     }
 
     #providerGraph{
-        border: 10px solid rgb(0, 255, 115);
+        border: 6px solid rgb(0, 255, 115);
         
     }
 
@@ -936,7 +936,7 @@ animation: move3 1s ease-in-out infinite alternate;
         font-weight: 400;
         font-style: normal;
         color: rgb(0, 255, 115);
-        border-left: 10px solid rgb(0, 255, 115);
+        border-left: 6px solid rgb(0, 255, 115);
         margin-top: auto;
     
     }
@@ -952,10 +952,10 @@ animation: move3 1s ease-in-out infinite alternate;
     }
     
     #loading-bar{
-        transform: scale(3.5);
+        transform: scale(2);
         display: flex;
         margin-top: calc(-11 * var(--spacing));
-        margin-left: calc(5.2 * var(--spacing));
+        margin-left: calc(4.9 * var(--spacing));
     }
     
     .volume{
@@ -986,9 +986,9 @@ animation: move3 1s ease-in-out infinite alternate;
     
     .mapSpots{
         display: flex;
-        transform: scale(3);
-        margin-top: calc(-10 * var(--spacing));
-        margin-left: calc(16 * var(--spacing));
+        transform: scale(2);
+        margin-top: calc(-11 * var(--spacing));
+        margin-left: calc(15 * var(--spacing));
     }
     
     #ssid{
@@ -1015,8 +1015,8 @@ animation: move3 1s ease-in-out infinite alternate;
     }
 
     #networkSpot{
-        transform: scale(3);
-        margin-top: calc(-10.5 * var(--spacing)); 
+        transform: scale(2);
+        margin-top: calc(-13.5 * var(--spacing)); 
         margin-left: calc(11 * var(--spacing)); 
     }
 
@@ -1059,7 +1059,7 @@ animation: move3 1s ease-in-out infinite alternate;
     }
     
     #bktext{
-        margin-top: calc(-11.5 * var(--spacing));
+        margin-top: calc(-12.5 * var(--spacing));
         margin-left: calc(2 * var(--spacing)); 
         width: calc(3 * var(--width));
         padding: 2px;
