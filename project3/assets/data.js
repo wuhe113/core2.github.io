@@ -50,15 +50,16 @@ function updateProgress(index) {
 }
 
 
+// const rects = document.querySelectorAll("wifiarea");
+
+// rects.forEach((rect, index) => {
+//   setTimeout(() => {
+//     rect.classList.add("areaAnimation");
+//   }, index * 1000);
+// });
 
 
-document.addEventListener("DOMContentLoaded", function(event) {
-  var beforeElement = document.querySelector('#btn1:before');
 
-  beforeElement.addEventListener('click', function() {
-    beforeElement.classList.toggle('clicked');
-  });
-});
 
 
 
@@ -127,6 +128,38 @@ const ssidData = (wifiz) => {
 
 }
 
+const boroughData = (wifiy) => {
+  let bk= 0
+  let mht = 0
+  let queens= 0
+  let si = 0
+  let bronx = 0
+
+
+  wifiy.forEach(wifi => {
+
+      if(wifi.borough_name =='Brooklyn') bk++
+      else if (wifi.borough_name == 'Manhattan') mht++
+      else if (wifi.borough_name == 'Queens') queens++
+      else if (wifi.borough_name == 'Staten Island') si++
+      else if (wifi.borough_name == 'Bronx') bronx++
+
+  })
+
+  console.log('Brooklyn:' + bk)
+  console.log('Manhattan:' + mht)
+  console.log('Queens:' + queens)
+  console.log('Staten Island:' + si)
+  console.log('Bronx:' + bronx)
+
+  // boroughGraph.style.setProperty('--guest', wifiGuest)
+  // boroughGraph.style.setProperty('--attwifi', wifiAtt)
+  // boroughGraph.style.setProperty('--others', wifiOthers)
+  // boroughGraph.style.setProperty('--gov', wifiGover)
+  
+
+}
+
 
 
 
@@ -135,4 +168,5 @@ fetch(dataUrl)
     .then(data => {
         parseData(data)
         ssidData(data)
+        boroughData(data)
     })
