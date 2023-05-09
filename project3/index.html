@@ -14,7 +14,19 @@
 
     <body>
         <h1><marquee>Wi-Fi: Open Space NYC</marquee></h1>
-        <!-- <p id="introduction">Wifi: Open Space NYC is an analysis of the ‘NYC Wi-Fi Hotspot Locations’ OpenData records focused on the use of Wi-Fi in open spaces (in public parks and on Governors Island).</p> -->
+        <p id="introduction">Wifi: Open Space NYC is an analysis of the ‘NYC Wi-Fi Hotspot Locations’ OpenData records focused on the use of Wi-Fi in open spaces (in public parks and on Governors Island)</p>
+        <div id="container">
+          <button class="collapsible">+</button>
+        <div id="collectedData">
+          <span>!!<span style="color:#365b40">The collected data from the analysis shown below includes</span>!!<br>↳</span>
+          <span>①&nbspWi-Fi provider↴<span style="color:#365b40">
+          Name of entity that is providing the Wi-Fi connection to the public</span></span>
+          <span>②&nbspSSID↴<span style="color:#365b40">
+          The name of the Wi-Fi Hotspot seen on an individual's device</span></span>
+          <span>③&nbspBorough Name↴<span style="color:#365b40">The Borough of New York City where the Wi-Fi Hotspot is located</span></span>
+          </div>
+        </div>
+
         <div id="provider">Wi-Fi provider
             <p id="typewriter1">...detecting</p>
         </div>
@@ -119,7 +131,19 @@
     </g>
     </svg>
 
-    <svg id="circleMap" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+    <svg class="volume" xmlns="http://www.w3.org/2000/svg" width="50" height="35" viewBox="0 0 50 35">
+        <g>
+            <rect id="volume1" width="5" height="9" fill="#00ff73"/>
+            <rect id="volume2" width="5" height="6" fill="#00ff73" x="9"/>
+            <rect id="volume3" width="5" height="10" fill="#00ff73" x="18"/>
+            <rect id="volume4" width="5" height="8" fill="#00ff73" x="26"/>
+            <rect id="volume5" width="5" height="12" fill="#00ff73" x="35"/>
+            <rect id="volume6" width="5" height="7" fill="#00ff73" x="44"/>
+        </g>
+    </svg>
+
+  <div>
+    <svg id="circleMap" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" overflow="hidden">
     <defs>
         <style>
         .b {
@@ -403,7 +427,7 @@
 </g> -->
     </svg>
 
-    <svg class="mapSpots" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+    <svg class="mapSpots" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
     <g>
         <circle id="spot1" fill="#FF3E3E" cx="55" cy="55" r="5"/>
         <circle id="spot2" fill="#FF3E3E" cx="83" cy="98" r="5"/>
@@ -412,11 +436,326 @@
         <circle id="spot5" fill="#FF3E3E" cx="120" cy="120" r="5"/>
     </g>
     </svg>
+  </div>
 
+    <div id="ssidContainer">
+        <ul id="ssidGraph">
+            <li id="guest"></li>
+            <li id="att2"></li>
+            <li id="bp"></li>
+            <li id="gov"></li>
+        </ul>
+    </div>
+
+
+    <div id="container2">
+      <div id="ssid">SSID</div>
+      <div class="buttons">
+        <button id="btn1" onclick="updateProgress(0)">Guest Wifi</button>
+        <button id="btn2" onclick="updateProgress(1)">att wifi</button>
+        <button id="btn3" onclick="updateProgress(2)">Others</button>
+        <button id="btn4" onclick="updateProgress(3)">Governors Island</button>
+      </div>
+      <svg id="progress-svg" viewBox="0 0 100 100">
+        <circle id="progress-bg" cx="50" cy="50" r="40" stroke="#365B40" stroke-width="7" fill="none" />
+        <circle id="progress-bar" cx="50" cy="50" r="40" stroke="#00ff73" stroke-width="7" stroke-dasharray="0 0" fill="none" />
+        <text id="progress-label" x="50" y="55" text-anchor="middle" font-size="18" fill="#00ff73" font-family="'PF Tempesta Five', sans-serif">0%</text>
+      </svg>
+      <div id="ssidText">
+        <p>↳ According to the reported data about SSID (name of Wi-Fi Hotspot), we analyzed that Wi-Fi appearing in public places under the name Guest Wifi on users' devices is the largest share, reaching 90.8% of all data</p>
+      </div>
+    </div>
 
     <div>
+    <svg id="networkLine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+      <defs>
+        <style>
+          .uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b, .uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4, .uuid-91e06826-2422-4654-bc36-88b8dad5a7a7 {
+            fill: #00ff73;
+          }
+    
+          .uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b, .uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4, .uuid-e68db45f-1803-4903-9eb3-89324dcba98e, .uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520, .uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1 {
+            stroke-miterlimit: 10;
+            stroke-width: 5px;
+          }
+    
+          .uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b, .uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520 {
+            stroke: #308e59;
+          }
+    
+          .uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4 {
+            stroke: #999;
+          }
+    
+          .uuid-4d430bf5-5205-40e8-a3be-8bf75db096c9 {
+            fill: #ff3e3e;
+          }
+    
+          .uuid-cdca1fe6-3708-488d-965a-2c1e7040dee6 {
+            fill: #1a1a1a;
+          }
+    
+          .uuid-e68db45f-1803-4903-9eb3-89324dcba98e {
+            stroke: #ff3e3e;
+          }
+    
+          .uuid-e68db45f-1803-4903-9eb3-89324dcba98e, .uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520, .uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1 {
+            fill: none;
+          }
+    
+          .uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1 {
+            stroke: #ccc;
+          }
+        </style>
+      </defs>
+      <rect class="uuid-cdca1fe6-3708-488d-965a-2c1e7040dee6" x="-1" width="1000" height="1000"/>
+      <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="345 420.5 622.41 420.84 780.41 281.84 780.41 214.84 844.41 214.84"/>
+      <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="345 432.5 636.14 434.02 794.14 295.02 794.14 228.02 858.14 228.02"/>
+      <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="344.66 446.76 650 448 808 309 808 242 872 242"/>
+      <rect class="uuid-4d430bf5-5205-40e8-a3be-8bf75db096c9" x="481" y="337" width="24" height="482"/>
+      <rect class="uuid-4d430bf5-5205-40e8-a3be-8bf75db096c9" x="452" y="461" width="22" height="358"/>
+      <rect class="uuid-4d430bf5-5205-40e8-a3be-8bf75db096c9" x="423" y="461" width="22" height="358"/>
+      <g>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="388.5 337.5 499.5 254.5 694.5 254.5 738.5 279.5 738.5 320.5 796.5 361.5 829.5 361.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="388.5 320.5 500.5 237.5 695.5 237.5 751.5 271.5 751.5 314.5 800.5 349.5 829.5 349.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="389 237.5 423.5 237.5 500.5 163.5 860.5 162.5 895.5 180.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="388.5 288.5 500 180.43 858 180 895 199"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="750.5 86.5 689.5 115.5 389 116.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="389 86.5 693.5 86.5 750.5 58.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="388.5 101.5 691.5 101.5 782.5 58.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="388.5 128.5 692.5 128.5 794.5 79.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="344.66 541.66 414.5 542.5 500.5 474.5 500.5 337.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="344.66 562 422.5 561.5 519.5 484.5 519.5 337.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="344.66 637 476.5 636.5 591.5 697.5 750.5 697.5 925.5 526.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="344.66 647.6 476.5 647.5 585.5 709.5 752.5 709.5 932.5 533.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="344.66 660 476.5 659.5 581.5 723.5 757.5 724.5 941.5 542.5"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="87" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="116" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="145" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="174" width="51" height="25"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="87" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="116" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="145" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="174" width="51" height="25"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="238" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="267" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="296" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="262" y="325" width="51" height="25"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="238" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="267" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="296" width="51" height="25"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="330" y="325" width="51" height="25"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="387" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="429" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="285" y="387" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="285" y="429" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="501" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="543" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="286" y="501" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="286" y="543" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="618" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="660" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="286" y="617" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="286" y="659" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="732" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="220" y="774" width="51" height="38"/>
+      </g>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="285" y="732" width="51" height="38"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="285" y="774" width="51" height="38"/>
+      </g>
+      <g>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="75.5 427.5 95.5 397.5 167.5 397.5 181.5 427.5 211.5 427.6"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="75.5 541.5 102.5 510.5 181.5 510.5 192.5 539.5 211.66 539"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="75.5 647.5 94.46 616.5 212 617.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="75.5 761.5 95.5 731.5 170.5 731.5 181.5 761.5 211.5 761.22"/>
+      </g>
+      <g>
+        <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="75.5 370.5 95.46 337.5 181.5 337.5 254.5 325.5"/>
+        <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="75.5 313.5 95.46 279.5 254 279.5"/>
+        <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="75.5 256.5 95.5 227.5 211.5 227.5 254 250.5"/>
+        <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="75.5 199.5 103.5 170.5 219.5 170.5 231.5 199.5 254.5 227.5"/>
+        <polyline class="uuid-e68db45f-1803-4903-9eb3-89324dcba98e" points="75.5 143.5 103.5 99.5 211.5 99.5 231.5 128.5 254 128.5"/>
+      </g>
+      <g>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="132 144 192.06 170 192.06 228 254 267"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="131.5 200.5 165.5 210.5 165.5 237.5 254 308.5"/>
+        <polyline class="uuid-9239d1b2-b458-42f1-81b2-29b31d5fe0b1" points="132 257 175 280 175 321 212 338 231.38 379.5"/>
+      </g>
+      <g>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.46" cy="143.46" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.77" cy="199.97" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.77" cy="256.97" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.77" cy="313.97" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.61" cy="370.72" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.92" cy="427.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.92" cy="484.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.92" cy="541.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.61" cy="590.72" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.92" cy="647.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.92" cy="704.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="75.92" cy="761.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.61" cy="143.72" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.92" cy="200.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.92" cy="257.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.92" cy="314.22" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.02" cy="371.09" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.33" cy="427.6" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.33" cy="484.6" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="131.33" cy="541.6" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="132.02" cy="591.09" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="132.33" cy="647.6" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="132.33" cy="704.6" r="19.54"/>
+        <circle class="uuid-35c37e63-7d8b-4a77-8d8f-1311407b096b" cx="132.33" cy="761.6" r="19.54"/>
+      </g>
+      <g>
+        <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="254.5" y="76.5" width="134" height="134"/>
+        <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="254.5" y="227.5" width="134" height="134"/>
+        <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="211.5" y="379.5" width="133" height="95.32"/>
+        <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="211.66" y="494" width="133" height="95.32"/>
+        <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="211.66" y="609" width="133" height="95.32"/>
+        <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="211.66" y="724" width="133" height="95.32"/>
+      </g>
+      <g>
+        <g>
+          <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="480.5" y="390.5" width="129" height="49"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="488" y="396" width="51" height="38"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="551" y="396" width="51" height="38"/>
+        </g>
+        <g>
+          <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="480.5" y="460.5" width="129" height="49"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="488" y="466" width="51" height="38"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="551" y="466" width="51" height="38"/>
+        </g>
+        <g>
+          <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="480.5" y="518.5" width="129" height="49"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="488" y="524" width="51" height="38"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="551" y="524" width="51" height="38"/>
+        </g>
+        <g>
+          <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="480.5" y="612.5" width="129" height="49"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="488" y="618" width="51" height="38"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="551" y="618" width="51" height="38"/>
+        </g>
+        <g>
+          <rect class="uuid-7ad4304d-5a4d-4e1b-bc0d-3e2037d67520" x="451.5" y="675.5" width="160.5" height="60.97"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="460.83" y="682.34" width="63.45" height="47.28"/>
+          <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="539.22" y="682.34" width="63.45" height="47.28"/>
+        </g>
+      </g>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="496" y="275" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="515" y="275" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="854" y="330" width="9" height="63" transform="translate(497 1220) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="854" y="318" width="9" height="63" transform="translate(509 1208) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="534" y="275" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="553" y="275" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="572" y="275" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="477" y="275" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="591" y="275" width="9" height="63"/>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="639" y="550" width="9" height="63"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="658" y="550" width="9" height="63"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="677" y="550" width="9" height="63"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="696" y="550" width="9" height="63"/>
+      </g>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="715" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="734" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="753" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="772" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="791" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="810" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="829" y="550" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="848" y="550" width="9" height="63"/>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="455" width="9" height="63" transform="translate(462 1435) rotate(-90)"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="436" width="9" height="63" transform="translate(481 1416) rotate(-90)"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="417" width="9" height="63" transform="translate(500 1397) rotate(-90)"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="398" width="9" height="63" transform="translate(519 1378) rotate(-90)"/>
+      </g>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="379" width="9" height="63" transform="translate(538 1359) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="360" width="9" height="63" transform="translate(557 1340) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="341" width="9" height="63" transform="translate(576 1321) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="322" width="9" height="63" transform="translate(595 1302) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="303" width="9" height="63" transform="translate(614 1283) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="284" width="9" height="63" transform="translate(633 1264) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="265" width="9" height="63" transform="translate(652 1245) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="944" y="246" width="9" height="63" transform="translate(671 1226) rotate(-90)"/>
+      <g>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="634" y="168" width="9" height="63"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="653" y="168" width="9" height="63"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="672" y="168" width="9" height="63"/>
+        <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="691" y="168" width="9" height="63"/>
+      </g>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="710" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="729" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="748" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="767" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="786" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="805" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="824" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="843" y="168" width="9" height="63"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="586" width="9" height="63" transform="translate(-229 1006) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="567" width="9" height="63" transform="translate(-210 987) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="548" width="9" height="63" transform="translate(-191 968) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="529" width="9" height="63" transform="translate(-172 949) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="510" width="9" height="63" transform="translate(-153 930) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="491" width="9" height="63" transform="translate(-134 911) rotate(-90)"/>
+      <rect class="uuid-91e06826-2422-4654-bc36-88b8dad5a7a7" x="384" y="472" width="9" height="63" transform="translate(-115 892) rotate(-90)"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="753.5" cy="51.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="790.5" cy="51.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="790.5" cy="81.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="895.5" cy="202.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="929.5" cy="526.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="662.5" cy="506.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="376.5" cy="647.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="447.5" cy="646.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="667.5" cy="709.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="447.5" cy="514.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="420.5" cy="376.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="734.5" cy="474.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="746.5" cy="315.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="572.5" cy="160.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="519.5" cy="210.5" r="12"/>
+      <circle class="uuid-530e3c1c-2d3e-414c-8925-d67186e4d2d4" cx="420.5" cy="163.5" r="12"/>
+    </svg>
+    <svg id="networkSpot" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+      <g>
+        <circle id="spot6" fill="#00ff73" stroke="#999999" stroke-width="2" cx="25" cy="55" r="5"/>
+        <circle id="spot7" fill="#00ff73" stroke="#999999" stroke-width="2" cx="83" cy="78" r="5"/>
+        <circle id="spot8" fill="#00ff73" stroke="#999999" stroke-width="2" cx="175" cy="25" r="5"/>
+        <circle id="spot9" fill="#00ff73" stroke="#999999" stroke-width="2" cx="175" cy="75" r="5"/>
+        <circle id="spot10" fill="#00ff73" stroke="#999999" stroke-width="2" cx="165" cy="150" r="5"/>
+    </g>
+    </svg>
+  </div>
 
-    </div>
+    
+    
+    
+    
+
 
 
 

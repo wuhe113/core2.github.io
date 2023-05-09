@@ -6,6 +6,12 @@
 
 body{
     background-color: rgb(26, 26, 26);
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(8, min-content);
+    min-height: 100vh;
 }
 
 h1{
@@ -29,24 +35,75 @@ marquee{
     width: calc(8.5 * var(--width));
 }
 
-/* #introduction{
-    font-family: 'IBM Plex Sans KR', sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
+#introduction{
+    font-family: 'PF Tempesta Five Compressed', sans-serif;
+    font-weight: 400;
+    font-size: calc(0.5 * var(--font-size));
     line-height: 3.5em;
     width: calc(9 * var(--width));
     margin-top: var(--spacing);
-    margin-left: var(--spacing);
+    margin-left: auto;
+    margin-right: auto;
     color:rgb(148, 148, 148);
                                                 
-} */
+}
+.collapsible{
+    font-family: 'PF Tempesta Five Compressed', sans-serif;
+    font-weight: 400;
+    font-size:var(--font-size);
+    width: 20px;
+    text-align: center;
+    color:rgb(82, 134, 93);
+    margin-top: 5px;
+    margin-left: var(--spacing);
+    background-color: rgb(66, 80, 72);
+    box-shadow: inset 2px 2px rgb(122, 135, 128);
+}
+
+.collapsible:hover{
+    background-color: rgb(51, 62, 56);
+    box-shadow: inset 2px 2px rgb(33, 42, 37);
+}
+
+#collectedData{
+    font-family: 'PF Tempesta Five Compressed', sans-serif;
+    font-weight: 400;
+    font-size: calc(0.5 * var(--font-size));
+    line-height: 3.5em;
+    width: calc(9 * var(--width));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    color:rgb(82, 134, 93);
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 5px;
+    border: 2px dashed rgb(0, 255, 115);
+    display: none;
+                                                
+}
+
+span{
+    color:rgb(255,62,62);
+}
+
+span:nth-child(2){
+    border-right:2px dashed rgb(0, 122, 55);
+    border-left:2px dashed rgb(0, 122, 55);
+    padding-left: 5px;
+}
+
+span:nth-child(3){
+    border-right:2px dashed rgb(0, 122, 55);
+    border-left:px dashed rgb(0, 122, 55);
+}
 
 #provider{
-    font-family: 'PF Tempesta Five Compressed', sans-serif;
-    font-size: var(--font-size);
+    font-family: 'PF Tempesta Five', sans-serif;
+    font-size: calc(2 * var(--font-size));
     font-weight: 400;
     font-style: normal;
-    color:rgb(165, 165, 165);
+    color:rgb(0, 255, 115);
     margin-top: var(--spacing);
     margin-left: var(--spacing);
 }
@@ -226,42 +283,59 @@ li:hover .providerName{
     {transform: scaleY(0.15)}
 }
 
+.volume{
+    margin-top: calc(-6.3 * var(--spacing));
+    margin-left: calc(2.7 * var(--spacing));
+    animation: volume-change 1s linear .5s infinite;
+    transform-origin:top;
+}
+
+@keyframes volume-change{
+    0%
+      {transform: scaleY(1)}
+    25%
+      {transform: scaleY(0.5)}
+    50%
+      {transform: scaleY(0.7)}
+    75%
+      {transform: scaleY(0.3)}
+  }
+
 #circleMap{
-    width: calc(18 * var(--spacing));
-    margin-top: calc(-6 * var(--spacing));
-    margin-left: calc(4 * var(--spacing));
+    width: calc(15 * var(--spacing));
+    margin-top: calc(-13.5 * var(--spacing));
+    margin-left: calc(5 * var(--spacing));
+
 }
 
 .mapSpots{
     display: flex;
-    margin-top: calc(-13 * var(--spacing));
+    margin-top: calc(-12 * var(--spacing));
     margin-left: calc(8 * var(--spacing));
 }
 
 #spot1{
     /* filter: drop-shadow(0 0 20px #00ff73); */
-    animation: glow1 1s ease-in-out infinite alternate;
+    animation: glow1 .5s ease-in-out infinite alternate;
+}
+
+#spot2{
+    animation: glow2 .2s ease-in-out infinite alternate;
 }
 
 #spot3{
-    animation: glow2 1s ease-in-out infinite alternate;
+    animation: glow2 .2s ease-in-out infinite alternate;
+}
+
+#spot4{
+    animation: glow2 .5s ease-in-out infinite alternate;
 }
 
 #spot5{
-    animation: glow3 1s ease-in-out infinite alternate;
+    animation: glow1 .3s ease-in-out infinite alternate;
 }
 
-#spot1:hover{
-    fill: orange;
-}
 
-#spot3:hover{
-    fill: orange;
-}
-
-#spot5:hover{
-    fill: orange;
-}
 
 
 @keyframes glow1{
@@ -290,15 +364,240 @@ li:hover .providerName{
 
 }
 
-@keyframes glow3{
-    0%{
-        opacity: 0.5;
+/* #ssidGraph{
+    --total--ssid: calc(var(--guest) + var(--attwifi) + var(--others) + var(--gov));
+    width: calc(8 * var(--width));
+    height: calc(8 * var(--width));
+    margin-top: calc(-5 * var(--spacing));
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 8vw solid rgb(82, 134, 93);
+} */
+
+#ssid{
+    font-family: 'PF Tempesta Five', sans-serif;
+    font-size: calc(2 * var(--font-size));
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(0, 255, 115);
+    margin-left: var(--spacing);
+}
+
+#ssid::before{
+    content: "• ";
+    color:rgb(0, 255, 115);
+}
+
+
+#progress-bar {
+    transition: stroke-dasharray 1s ease-in;
+  }
+
+.buttons{
+    font-family: 'PF Tempesta Five Compressed', sans-serif;
+    font-weight: 400;
+    font-size:calc(0.8 * var(--spacing));
+
+    color:rgb(82, 134, 93);
+    margin-top: calc(0.5 * var(--spacing));
+    margin-left: var(--spacing);
+}
+
+
+#btn1{
+    background-color: rgb(66, 80, 72);
+    box-shadow: inset 2px 2px rgb(122, 135, 128);
+}
+
+#btn1:hover{
+    background-color: rgb(51, 62, 56);
+    box-shadow: inset 2px 2px rgb(33, 42, 37);
+}
+
+
+#btn1::before{
+    content: "☑";
+    color: rgb(215, 215, 215);
+}
+
+#btn1:active:before{
+    color:rgb(255,62,62);
+}
+
+
+#btn2{
+    background-color: rgb(66, 80, 72);
+    box-shadow: inset 2px 2px rgb(122, 135, 128);
+}
+
+#btn2:hover{
+    background-color: rgb(51, 62, 56);
+    box-shadow: inset 2px 2px rgb(33, 42, 37);
+}
+
+
+#btn2::before{
+    content: "☑";
+    color: rgb(215, 215, 215);
+}
+
+#btn2:active:before{
+    color:rgb(255,62,62);
+}
+
+
+
+#btn3{
+    background-color: rgb(66, 80, 72);
+    box-shadow: inset 2px 2px rgb(122, 135, 128);
+}
+
+#btn3:hover{
+    background-color: rgb(51, 62, 56);
+    box-shadow: inset 2px 2px rgb(33, 42, 37);
+}
+
+
+#btn3::before{
+    content: "☑";
+    color: rgb(215, 215, 215);
+}
+
+#btn3:active:before{
+    color:rgb(255,62,62);
+}
+
+
+#btn4{
+    background-color: rgb(66, 80, 72);
+    box-shadow: inset 2px 2px rgb(122, 135, 128);
+}
+
+#btn4:hover{
+    background-color: rgb(51, 62, 56);
+    box-shadow: inset 2px 2px rgb(33, 42, 37);
+}
+
+
+#btn4::before{
+    content: "☑";
+    color: rgb(215, 215, 215);
+}
+
+#btn4:active:before{
+    color:rgb(255,62,62);
+}
+
+#ssidText{
+    font-family: 'PF Tempesta Five Compressed', sans-serif;
+    font-weight: 400;
+    font-size: calc(0.5 * var(--font-size));
+    line-height: 3.5em;
+    width: calc(9 * var(--width));
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color:rgb(148, 148, 148);
+    border-top: 2px solid rgb(0, 255, 115);
+    border-bottom: 2px solid rgb(0, 255, 115);
+}
+
+
+
+#networkSpot{
+    margin-top: calc(-15 * var(--spacing)); 
+    margin-left: calc(5 * var(--spacing)); 
+}
+
+#spot6{
+    animation: move 2s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(100px);
+    }
+    30%{
+      transform: translateX(80px);
     }
     50%{
-        opacity: 1;
+        transform: translateX(60px);
+      }
+    80%{
+    transform: translateX(50px);
     }
-    100%{
-        opacity: 0.5;
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+#spot7{
+animation: move2 2s ease-in-out infinite alternate;
+}
+
+@keyframes move2{
+0% {
+    transform: translateY(0);
+}
+10%{
+    transform: translateY(30px);
+}
+50% {
+    transform: translateY(50px);
+}
+70%{
+    transform: translateY(100px);
+}
+100% {
+    transform: translateY(80px);
+}
+}
+
+
+#spot8{
+animation: move3 1s ease-in-out infinite alternate;
+}
+
+@keyframes move3{
+0% {
+    transform: translateX(40px);
+}
+30% {
+    transform: translateX(40px);
+}
+60% {
+    transform: translateX(60px);
+}
+100% {
+    transform: translateX(100px);
+}
+}
+
+#spot9{
+    animation: move4 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes move4{
+    0% {
+        transform: translateY(40px);
+    }
+    30% {
+        transform: translateY(42px);
+    }
+    60% {
+        transform: translateY(45px);
+    }
+    100% {
+        transform: translateY(50px);
+    }
     }
 
-}
+
+
+
+
